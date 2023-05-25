@@ -1,9 +1,12 @@
 import React from 'react'
-
+import { Hero,About,Timeline,WhyPrtcpt } from '../../components'
 const MainPage = () => {
   return (
     <div>
-        <h1>HFT Website</h1>
+       <Hero/>
+       <About/>
+       <WhyPrtcpt/>
+       <Timeline/>
     </div>
   )
 }
