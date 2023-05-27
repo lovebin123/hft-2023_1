@@ -12,3 +12,10 @@ body {
   --primary-font: "Oxygen";
   --secondary-font: "Manrope";
 }
+
+/* common styles */
+.section__title{
+  color: #ffff;
+  font-family: var(--primary-font);
+  font-size: 2.3rem;
+}

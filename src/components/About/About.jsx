@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
+import pc_image from "../../assets/svg/pc_abt.svg";
+import Aos from "aos";
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 900 });
+  }, []);
   return (
     <div className="about__container">
-      <div className="abt__content">
+      <div className="abt__content" data-aos="zoom-in">
         <div className="abt__txt">
-          <h1>About</h1>
-          <div className="abt__txt_p">
+          <h1 data-aos="fade-left" className="section__title">About</h1>
+          <div className="abt__txt_p" data-aos="fade-right">
             <p>
               A spark. A small wish to change the world. That’s all it takes to
               start building a product which might be the next big thing.
@@ -29,10 +34,9 @@ const About = () => {
             </p>
           </div>
         </div>
-        <img
-          src="https://avatars.githubusercontent.com/u/110590339?s=200&v=4"
-          alt=" "
-        />
+        <div className="abt__image_container">
+          <img className="pc_img_abt" src={pc_image} alt=" " />
+        </div>
       </div>
     </div>
   );

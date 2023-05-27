@@ -12,16 +12,16 @@ const TimelineComponent = () => {
   }, []);
   const customTheme = {
     lineColor: "#ffff",
-    fontFamily: "Inter",
+    fontFamily: "Oxygen",
   };
 
   const gradient = "#000000";
-  const border = "border: 5px solid #FFFFFF;";
+  const border = "border:5px solid #ffff;";
 
   return (
     <div className="timeline" id="timeline">
       <div className="timeline__container">
-        <h2 className="timeline__title_txt">Timeline</h2>
+        <h2 className="section__title">Timeline</h2>
 
         <div className="timeline__section" data-aos="zoom-in">
           <VerticalTimeline theme={customTheme} lineColor="#21b8cb">
