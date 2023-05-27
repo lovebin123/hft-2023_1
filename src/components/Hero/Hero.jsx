@@ -2,7 +2,9 @@ import React from 'react'
 import './Hero.css'
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div>
+      <h1 className='section__title'>Hero</h1>
+    </div>
   )
 }
 

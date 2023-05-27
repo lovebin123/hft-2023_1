@@ -2,7 +2,9 @@ import React from 'react'
 import './WhyPrtcpt.css'
 const WhyPrtcpt = () => {
   return (
-    <div>WhyPrtcpt</div>
+    <div>
+      <h1 className="section__title">WhyPrtcpt</h1>
+    </div>
   )
 }
 
