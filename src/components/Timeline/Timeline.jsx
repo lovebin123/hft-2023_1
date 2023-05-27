@@ -15,8 +15,7 @@ const TimelineComponent = () => {
     fontFamily: "Inter",
   };
 
-  const gradient1 = "#000000";
-  const gradient2 = "#000000";
+  const gradient = "#000000";
   const border = "border: 5px solid #FFFFFF;";
 
   return (
@@ -30,114 +29,123 @@ const TimelineComponent = () => {
               className="vertical-timeline-element--work "
               contentStyle={{
                 color: "#ffff",
-                background: gradient1,
+                background: gradient,
                 border: border,
               }}
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
                 <h3 className="vertical-timeline-element-title">24 Nov 2023</h3>
-
-                {/* <div className="timeline_content"></div> */}
-                <p className="timeline__para" style={{fontSize:'1.25rem'}}>Registation starts</p>
+                <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
+                  Registation starts
+                </p>
               </div>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: gradient2 }}
+              contentStyle={{ background: gradient }}
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
                 <h3 className="vertical-timeline-element-title">24 Nov 2023</h3>
 
-                <p className="timeline__para" style={{fontSize:'1.25rem'}}>Registation starts </p>
+                <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
+                  Registation starts{" "}
+                </p>
               </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work "
-              contentStyle={{ color: "#ffff", background: gradient1 }}
+              contentStyle={{ color: "#ffff", background: gradient }}
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
                 <h3 className="vertical-timeline-element-title">24 Nov 2023</h3>
-
-                <div className="timeline_content"></div>
-                <p className="timeline__para" style={{fontSize:'1.25rem'}}>Registation starts </p>
+                <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
+                  Registation starts{" "}
+                </p>
               </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: gradient2 }}
+              contentStyle={{ background: gradient }}
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
                 <h3 className="vertical-timeline-element-title">24 Nov 2023</h3>
 
-                <p className="timeline__para" style={{fontSize:'1.25rem'}}>Registation starts </p>
+                <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
+                  Registation starts{" "}
+                </p>
               </div>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work "
-              contentStyle={{ color: "#ffff", background: gradient1 }}
+              contentStyle={{ color: "#ffff", background: gradient }}
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
                 <h3 className="vertical-timeline-element-title">24 Nov 2023</h3>
-
-                <div className="timeline_content"></div>
-                <p className="timeline__para" style={{fontSize:'1.25rem'}}>Registation starts </p>
-              </div>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: gradient2 }}
-              contentArrowStyle={{ display: "none" }}
-            >
-              <div className="timeline__element_txt">
-                <h3 className="vertical-timeline-element-title">24 Nov 2023</h3>
-
-                <p className="timeline__para" style={{fontSize:'1.25rem'}}>Registation starts</p>
-              </div>
-            </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work "
-              contentStyle={{ color: "#ffff", background: gradient1 }}
-              contentArrowStyle={{ display: "none" }}
-            >
-              <div className="timeline__element_txt">
-                <h3 className="vertical-timeline-element-title">24 Nov 2023</h3>
-
-                <div className="timeline_content"></div>
-                <p className="timeline__para" style={{fontSize:'1.25rem'}}>Registation starts </p>
+                <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
+                  Registation starts{" "}
+                </p>
               </div>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: gradient2 }}
+              contentStyle={{ background: gradient }}
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
                 <h3 className="vertical-timeline-element-title">24 Nov 2023</h3>
 
-                <p className="timeline__para" style={{fontSize:'1.25rem'}}>Registation starts </p>
+                <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
+                  Registation starts
+                </p>
               </div>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work "
-              contentStyle={{ color: "#ffff", background: gradient1 }}
+              contentStyle={{ color: "#ffff", background: gradient }}
+              contentArrowStyle={{ display: "none" }}
+            >
+              <div className="timeline__element_txt">
+                <h3 className="vertical-timeline-element-title">24 Nov 2023</h3>
+                <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
+                  Registation starts{" "}
+                </p>
+              </div>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: gradient }}
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
                 <h3 className="vertical-timeline-element-title">24 Nov 2023</h3>
 
-                <div className="timeline_content"></div>
-                <p className="timeline__para" style={{fontSize:'1.25rem'}}>Hack Ends. </p>
+                <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
+                  Registation starts{" "}
+                </p>
+              </div>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work "
+              contentStyle={{ color: "#ffff", background: gradient }}
+              contentArrowStyle={{ display: "none" }}
+            >
+              <div className="timeline__element_txt">
+                <h3 className="vertical-timeline-element-title">24 Nov 2023</h3>
+
+                <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
+                  Hack Ends.{" "}
+                </p>
               </div>
             </VerticalTimelineElement>
           </VerticalTimeline>

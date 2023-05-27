@@ -3,10 +3,7 @@
     flex-direction: column;
     overflow: hidden;
     width: 100%;
-    /* justify-content: center; */
-    /* align-items: center; */
     min-height: 100vh;
-    /* margin-top: 2rem; */
     font-family: 'Inter';
     font-style: normal;
 }
@@ -21,7 +18,7 @@
 }
 
 .timeline__title_txt{
-    color: #FFFF;
+    color: #ffff;
     font-family: var(--primary-font);
     font-size: 2rem;
 }
@@ -35,16 +32,8 @@
     justify-content: center;
     align-items: center;
 }
-.custom__time__line{
-    color:#08599b;
-}
-
-/* .vertical-timeline {
-    padding: 1rem 0 !important;
-} */
-
 .vertical-timeline::before{
-    background:    #ffff       /*radial-gradient(#224646,#182828)*/
+    background:#ffff;
 }
 .vertical-timeline-element-date{
     color: black;
@@ -54,7 +43,7 @@
 }
 .vertical-timeline-element-title{
     font-size: 1.25rem;
-    color: #FFF;
+    color: #ffff;
     font-family: var(--secondary-font);
 }
 .vertical-timeline-element-content{
@@ -78,20 +67,6 @@
 .timeline__section {
     margin-top: 3rem;
 }
-
-.timeline_date {
-    width: 150px;
-    height: 40px;
-    padding: 0.5rem;
-    background-color: aqua;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--secondary-font);
-}
-
-
 
 
 .vertical-timeline--two-columns .vertical-timeline-element-icon {
@@ -119,7 +94,7 @@
         margin-left: 1.5% !important
     } 
     .vertical-timeline-element-date{
-        color: #FFF 
+        color: #ffff 
     }
 }
 @media only screen and (max-width:992px){
@@ -127,7 +102,7 @@
         margin-left: 1.4% !important
     }
     .vertical-timeline-element-date{
-        color: #FFF 
+        color: #ffff 
     }
     .timeline__container {
         width: 100%;
@@ -138,14 +113,14 @@
         margin-left: 2% !important
     }
     .vertical-timeline-element-date{
-        color: #FFF;
+        color: #ffff;
         font-size: 1rem !important;
         padding: 0 !important;
         padding-top: 0.7rem !important;
     }
     .vertical-timeline-element-title{
         font-size: 1.15rem;
-        color: #FFF;
+        color: #ffff;
     }
     .vertical-timeline-element-date {
         font-size: 0.8rem;
@@ -156,7 +131,7 @@
         margin-left: 2.6% !important
     }
     .vertical-timeline-element-date{
-        color: #FFF 
+        color: #ffff 
     }
 }
 
@@ -165,7 +140,7 @@
         margin-left: 3.7% !important
     }
     .vertical-timeline-element-date{
-        color: #FFF 
+        color: #ffff 
     }
 }
 @media (min-device-width: 20px) and (max-device-width: 500px){
@@ -174,7 +149,7 @@
         margin-left: 3.6% !important
     }
     .vertical-timeline-element-date{
-        color: #FFF;
+        color: #ffff;
     }
     .vertical-timeline-element-content{
         max-height: 35vh;
@@ -186,11 +161,11 @@
         margin-left: 1.7% !important
     }
     .vertical-timeline-element-date{
-        color: #FFF;
+        color: #ffff;
     }
 }
 @media (min-device-width: 1000px) and (max-device-width: 1100px){
     .vertical-timeline-element-date{
-        color: #FFF 
+        color: #ffff 
     }
 }
