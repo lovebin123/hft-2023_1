@@ -7,6 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url("./assets/svg/main_bg.svg");
 }
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+body::-webkit-scrollbar-track {
+  background: #2a2d32;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #28AA47;
+  border-radius: 10px;
+}
 
 :root {
   --primary-font: "Oxygen";
