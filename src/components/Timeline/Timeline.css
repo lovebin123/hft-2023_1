@@ -1,0 +1,196 @@
+.timeline {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    min-height: 100vh;
+    /* margin-top: 2rem; */
+    font-family: 'Inter';
+    font-style: normal;
+}
+.timeline__element_txt{
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.timeline__title_txt{
+    color: #FFFF;
+    font-family: var(--primary-font);
+    font-size: 2rem;
+}
+.timeline__para{
+    color: #2DB34A;
+    width: 50rem;
+    font-size: 1.5rem;
+    font-family: var(--secondary-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.custom__time__line{
+    color:#08599b;
+}
+
+/* .vertical-timeline {
+    padding: 1rem 0 !important;
+} */
+
+.vertical-timeline::before{
+    background:    #ffff       /*radial-gradient(#224646,#182828)*/
+}
+.vertical-timeline-element-date{
+    color: black;
+    font-size:1.35rem !important;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.vertical-timeline-element-title{
+    font-size: 1.25rem;
+    color: #FFF;
+    font-family: var(--secondary-font);
+}
+.vertical-timeline-element-content{
+    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25),0 0.4em 1.25em 0 rgba(0,0,0,0.15) !important
+}
+
+.vertical-timeline-element {
+    margin: 2em 0;
+}
+
+.timeline__container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 0;
+}
+
+.timeline__section {
+    margin-top: 3rem;
+}
+
+.timeline_date {
+    width: 150px;
+    height: 40px;
+    padding: 0.5rem;
+    background-color: aqua;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--secondary-font);
+}
+
+
+
+
+.vertical-timeline--two-columns .vertical-timeline-element-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: -8px;
+    box-shadow: none;
+    top: 23px;
+    background: #089447
+}
+
+@media only screen and (max-width:1300px){
+
+}
+@media only screen and (max-width:1200px){
+    .timeline__container {
+        width: 90%;
+    }
+    .vertical-timeline-element-icon{
+        margin-left: 1.5% !important
+    } 
+}
+@media only screen and (max-width:1100px){
+    .vertical-timeline-element-icon{
+        margin-left: 1.5% !important
+    } 
+    .vertical-timeline-element-date{
+        color: #FFF 
+    }
+}
+@media only screen and (max-width:992px){
+    .vertical-timeline-element-icon{
+        margin-left: 1.4% !important
+    }
+    .vertical-timeline-element-date{
+        color: #FFF 
+    }
+    .timeline__container {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:800px){
+    .vertical-timeline-element-icon{
+        margin-left: 2% !important
+    }
+    .vertical-timeline-element-date{
+        color: #FFF;
+        font-size: 1rem !important;
+        padding: 0 !important;
+        padding-top: 0.7rem !important;
+    }
+    .vertical-timeline-element-title{
+        font-size: 1.15rem;
+        color: #FFF;
+    }
+    .vertical-timeline-element-date {
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width:600px){
+    .vertical-timeline-element-icon{
+        margin-left: 2.6% !important
+    }
+    .vertical-timeline-element-date{
+        color: #FFF 
+    }
+}
+
+@media only screen and (max-width:400px){
+    .vertical-timeline-element-icon{
+        margin-left: 3.7% !important
+    }
+    .vertical-timeline-element-date{
+        color: #FFF 
+    }
+}
+@media (min-device-width: 20px) and (max-device-width: 500px){
+
+    .vertical-timeline-element-icon{
+        margin-left: 3.6% !important
+    }
+    .vertical-timeline-element-date{
+        color: #FFF;
+    }
+    .vertical-timeline-element-content{
+        max-height: 35vh;
+    }
+}
+@media (min-device-width: 500px) and (max-device-width: 1000px)
+{
+    .vertical-timeline-element-icon{
+        margin-left: 1.7% !important
+    }
+    .vertical-timeline-element-date{
+        color: #FFF;
+    }
+}
+@media (min-device-width: 1000px) and (max-device-width: 1100px){
+    .vertical-timeline-element-date{
+        color: #FFF 
+    }
+}
