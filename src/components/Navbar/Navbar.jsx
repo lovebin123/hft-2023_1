@@ -35,7 +35,7 @@ const Navbar = () => {
               Prizes
             </a>
           </div>
-          <div className="navbar__item5">
+          <div className="navbar__item">
             <a href="/" className="navbar__link">
               {" "}
               Contact
