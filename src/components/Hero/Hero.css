@@ -4,7 +4,10 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
+  top: 0;
+  left: 0;
+  
 }
 .hero__content {
   height: 80%;
@@ -38,14 +41,13 @@
 }
 
 .hero_df_btn {
-  width: 95%;
-  height: 2.75rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 0rem;
   color: dimgray;
+  padding: .5rem 9rem;
 
   background: white;
   border-radius: 0.5rem;
@@ -54,17 +56,17 @@
   font-family: var(--primary-font);
   font-size: 1.25rem;
   font-weight: 600;
+  flex-shrink: 1;
 
 }
 
 .hero__rem_time {
-  width: 95%;
-  height: 8.875rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: rgba(194, 194, 194, 0.17);
+  padding: 1.5rem 1rem 2rem 1rem;
+  background: rgba(154, 153, 153, 0.155);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   clip-path: polygon(0 0, 90% 0, 100% 30%, 100% 100%, 10% 100%, 0 70%);
