@@ -14,11 +14,11 @@ const Hero = () => {
           <div className="hero__hft_logo">
             <img className="hft__logo" src={hft_logo} alt="hft Logo " />
           </div>
-
-          <button className="hero_df_btn" data-aos="zoom-in">
-            Go to projects
-          </button>
-
+          <div className="hero__df">
+            <button className="hero_df_btn" data-aos="zoom-in">
+              Go to projects
+            </button>
+          </div>
           <div className="hero__rem_time" data-aos="flip-down">
             <div className="hero__time">
               <div className="time_item hero__days">
