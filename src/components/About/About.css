@@ -1,5 +1,6 @@
 .about__container {
   width: 100%;
+  padding-top: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: center;

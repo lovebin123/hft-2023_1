@@ -3,11 +3,13 @@ import "./Hero.css";
 import Aos from "aos";
 import { useEffect } from "react";
 import hft_logo from "../../assets/svg/hft_logo.svg";
+// import IconsFill from "../IconsFill/IconsFill";
 const Hero = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
+    // <IconsFill>
     <div className="hero__container">
       <div className="hero__content">
         <div className="hero__txt">
@@ -42,6 +44,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    // </IconsFill>
   );
 };
 

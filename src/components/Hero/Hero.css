@@ -24,6 +24,7 @@
   height: 80%;
   align-items: center;
   width: 30%;
+  gap: 3rem;
   justify-content: space-around;
   align-items: center;
 }
@@ -108,4 +109,23 @@
   text-align: center;
   color: #ffffff;
   margin: 0rem;
+}
+
+.icon {
+  position: absolute;
+  bottom: 0;
+  animation: moveUp 5s linear infinite;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(1000px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.icon img {
+  width: 50px;
+  height: 50px;
 }

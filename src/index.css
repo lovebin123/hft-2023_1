@@ -16,13 +16,14 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #28AA47;
+  background-color: var(--primary-color);
   border-radius: 10px;
 }
 
 :root {
   --primary-font: "Oxygen";
   --secondary-font: "Manrope";
+  --primary-color:#28AA47;
 }
 
 /* common styles */
