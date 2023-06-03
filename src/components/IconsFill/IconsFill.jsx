@@ -1,6 +1,6 @@
 import React from "react";
 import './IconsFill.css'
-const IconsFil = ({ children }) => {
+const IconsFill = ({ children }) => {
   return (
     <div>
       {children}
@@ -11,4 +11,4 @@ const IconsFil = ({ children }) => {
   );
 };
 
-export default IconsFil;
+export default IconsFill;
