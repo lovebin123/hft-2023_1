@@ -1,8 +1,99 @@
-.hero__container{
-    min-height: 90vh;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.hero__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero__content {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.hero__txt {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  align-items: center;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero__hft_logo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.hero__hft_logo img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.hero_df_btn {
+  width: 95%;
+  height: 2.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem;
+  color: dimgray;
+
+  background: white;
+  border-radius: 0.5rem;
+  border: none;
+
+  font-family: var(--primary-font);
+  font-size: 1.25rem;
+  font-weight: 600;
+
+}
+
+.hero__rem_time {
+  width: 95%;
+  height: 8.875rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgba(194, 194, 194, 0.17);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  clip-path: polygon(0 0, 90% 0, 100% 30%, 100% 100%, 10% 100%, 0 70%);
+}
+.hero__time {
+  width: 24rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-shrink: 1;
+}
+.time_item {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+}
+.time_item h3 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 2.75rem;
+  text-align: center;
+  color: #28aa47;
+  margin: 0rem;
+}
+.time_item p {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #ffffff;
+  margin: 0rem;
 }
