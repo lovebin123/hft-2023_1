@@ -1,9 +1,16 @@
 import React from 'react'
 import './Hero.css'
+import hft_logo from '../../assets/png/hft_logo.png'
 const Hero = () => {
   return (
-    <div>
-      <h1 className='section__title'>Hero</h1>
+    <div className='hero__container'>
+      <img src={hft_logo} alt=" " className='hft__logo'/>
+      <div className="devfolio_btn">
+
+      </div>
+      <div className="timer">
+
+      </div>
     </div>
   )
 }
