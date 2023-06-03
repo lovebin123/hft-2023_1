@@ -1,0 +1,74 @@
+.prizes__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+.prizes__content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+.prizes__awards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.prizes__award{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1rem 2rem;
+
+}
+.prizes_trophy{
+    position: relative;
+    margin-bottom: -3.75rem;
+    z-index: 100;
+}
+.prizes_trophy img{
+    max-width: 14rem;
+    max-height: 100%;
+    
+    display: block;
+    margin: auto;
+}
+.prizes__detail{
+    position: relative;
+    background: rgba(89, 89, 89, 0.21);
+    border-width: 0px 0.25px 0.25px 0px;
+    border-style: solid;
+    border-color: #ffffff5f;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    
+    border-radius: 30px;
+    padding: 4rem 2.5rem 2.5rem 2.5rem;
+}
+.prizes__detail h2 {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-align: center;
+    color: #EDB35F;
+  }
+  
+  .prizes__detail p {
+    font-family: var(--primary-font);
+    font-weight: 100;
+    font-size: 1.125rem; 
+    line-height: 1.4375rem; 
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: .05rem;
+  }
+  
