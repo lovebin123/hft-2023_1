@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Hero.css";
 import Aos from "aos";
 import hft_logo from "../../assets/svg/hft_logo.svg";
+import AnimationComponent from "../AnimationComponent/AnimationComponent";
 const calculateTimeLeft = () => {
   let difference = +new Date("2023-11-06T10:00:00+05:30") - +new Date();
   let timeLeft = {};
@@ -72,6 +73,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <AnimationComponent/>
     </div>
   );
 };
