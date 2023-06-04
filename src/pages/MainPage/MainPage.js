@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Navbar,
   Hero,
   About,
   Timeline,
@@ -11,6 +12,7 @@ import {
 const MainPage = () => {
   return (
     <div>
+      <Navbar/>
       <Hero />
       <About />
       <WhyPrtcpt />

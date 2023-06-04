@@ -7,10 +7,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url("./assets/svg/main_bg.svg");
 }
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+body::-webkit-scrollbar-track {
+  background: #2a2d32;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
 
 :root {
   --primary-font: "Oxygen";
   --secondary-font: "Manrope";
+  --primary-color:#28AA47;
 }
 
 /* common styles */
@@ -18,4 +31,6 @@ body {
   color: #ffff;
   font-family: var(--primary-font);
   font-size: 2.3rem;
+  text-align: center;
+
 }
