@@ -5,7 +5,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./assets/svg/main_bg.svg");
+  background-image: url("./assets/png/main_bg.png");
 }
 body::-webkit-scrollbar {
   width: 0.7em;
