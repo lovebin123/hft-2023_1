@@ -1,55 +1,68 @@
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 2rem;
-    border-top: .05rem solid #dcdcdc6a;
-    background: #2f2d2d76;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  border-top: 0.05rem solid #dcdcdc6a;
+  background: #2f2d2d76;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 .footer__content {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: center;
-    color: #fff;
-    height: 100%;
-  }
-  
-  .footer__social {
-    display: flex;
-    gap: 0.7rem;
-    font-size: 1.2rem;
-  }
-  .footer__social a{
-    text-decoration: none;
-  }
-  
-  .footer__social i {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    transition: all 0.3s;
-    color: #ffffff;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  color: #fff;
+  height: 100%;
+}
 
-  .footer__text {
-    font-weight: 500;
-    margin-top: auto;
-    margin-bottom: 0.5rem;
-  }
-  
-  .footer__text i {
-    width: 2rem;
-    font-size: 1.1rem;
-    text-align: center;
-    border-radius: 50%;
-    color: #28AA47;
-  }
- 
+.footer__social {
+  display: flex;
+  width: 15rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 0.7rem;
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 50%;
+  border: #28aa47;
+}
+.footer__social a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* 
+.footer__social i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  color: #ffffff;
+} */
+
+.footer__text {
+  font-weight: 500;
+  font-family: var(--primary-font);
+  margin-top: auto;
+  margin-bottom: 0.5rem;
+}
+.footer__text i {
+  width: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #28aa47;
+}
+.social__footer_icon {
+  transition: transform 0.3s ease;
+}
+.social__footer_icon:hover {
+  transform: rotate(360deg);
+  color: #28aa47;
+}

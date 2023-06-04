@@ -1,0 +1,43 @@
+.animation-container {
+    z-index: 1;
+    background: #fff;
+    z-index: 0.5;
+ }
+ 
+ .animation-container span {
+    font-family: "Barlow", sans-serif;
+    position: absolute;
+    color: #28aa47;
+    display: block;
+    font-size: 23px;
+    text-shadow: 0 0 1px #28aa47;
+    user-select: none;
+    pointer-events: none;
+    cursor: default;
+    z-index: 0.2 !important;
+    opacity: 0;
+    top: 0;
+    will-change: transform, opacity;
+    animation-timing-function: ease-out;
+    animation-name: move;
+ }
+ 
+ @keyframes move {
+    0% {
+       opacity: 0;
+       top: 100%;
+    }
+    25% {
+       opacity: 1;
+    }
+    50% {
+       opacity: 1;
+    }
+    75% {
+       opacity: 0;
+    }
+    100% {
+       opacity: 0;
+       transform: none;
+    }
+ }
