@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "./AnimationComponent.css";
 const AnimationComponent = () => {
   useEffect(() => {
-    const chars = ["0", "1", "!", ";", "{ }","( )","$"];
+    const chars = ["0", "1", "!", ";", "{ }","( )","$"] ;
 
     const init = () => {
       const container = document.createElement("div");
