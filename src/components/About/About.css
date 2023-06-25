@@ -5,6 +5,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5rem;
 }
 .abt__content {
   padding: 2rem 4rem 2rem 4rem;
@@ -12,9 +13,9 @@
   background: rgba(89, 89, 89, 0.21);
     border-width: 0px 0.25px 0.25px 0px;
     border-style: solid;
-    border-color: #ffffff37;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    border-color: #ffffff1f;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border-radius: 30px;
   display: flex;
   flex-direction: row;
@@ -36,6 +37,7 @@
 }
 .pc_img_abt {
   width: 26rem;
+  pointer-events: none;
 }
 .abt__image_container {
   flex-basis: 40%;

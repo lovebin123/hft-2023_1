@@ -42,6 +42,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  pointer-events: none;
 }
 .y_ppt_content {
   width: 100%;

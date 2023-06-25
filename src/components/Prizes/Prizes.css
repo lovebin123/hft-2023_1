@@ -28,7 +28,7 @@
     justify-content:space-between;
 }
 .prizes__award{
-    width: 25%;
+    width: 22%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,15 +47,16 @@
     
     display: block;
     margin: auto;
+    pointer-events: none;
 }
 .prizes__detail{
     position: relative;
     background: rgba(89, 89, 89, 0.21);
     border-width: 0px 0.25px 0.25px 0px;
     border-style: solid;
-    border-color: #ffffff5f;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    border-color: #ffffff2d;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     
     border-radius: 30px;
     padding: 4rem 2.5rem 2.5rem 2.5rem;
