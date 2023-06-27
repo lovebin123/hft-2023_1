@@ -2,7 +2,7 @@
   width: 100%;
   max-height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   top: 0;
@@ -10,11 +10,13 @@
   padding: 5rem 0rem 4em 0rem;
   
 }
+
 .hero__content {
   height: 80%;
   width: 100%;
+  margin-top: -6%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -40,6 +42,7 @@
   max-height: 100%;
   display: block;
   margin: auto;
+  pointer-events: none;
 }
 .hero__df{
   width: 100%;

@@ -8,6 +8,7 @@ import {
   Footer,
   Contacts,
   Prizes,
+  Bounties,
 } from "../../components";
 const MainPage = () => {
   return (
@@ -18,6 +19,7 @@ const MainPage = () => {
       <WhyPrtcpt />
       <Timeline />
       <Prizes />
+      <Bounties/>
       <Contacts />
       <Footer />
     </div>
