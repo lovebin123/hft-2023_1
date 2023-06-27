@@ -52,15 +52,13 @@ const Hero = () => {
               Go to projects
             </button>
           </div>
-          
         </div>
         <div className="counter">
-            <Counter date={`2023-03-18T00:00:00`} />
+          <Counter date={`2023-03-18T00:00:00`} />
+        </div>
       </div>
-      </div>
-      
-      <AnimationComponent/>
-     
+
+      <AnimationComponent />
     </div>
   );
 };
