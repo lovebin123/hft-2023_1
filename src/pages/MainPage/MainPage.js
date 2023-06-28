@@ -9,6 +9,8 @@ import {
   Contacts,
   Prizes,
   Bounties,
+  Faq,
+  Gallery
 } from "../../components";
 const MainPage = () => {
   return (
@@ -19,6 +21,8 @@ const MainPage = () => {
       <WhyPrtcpt />
       <Timeline />
       <Prizes />
+      <Gallery/>
+      <Faq/>
       <Bounties/>
       <Contacts />
       <Footer />
