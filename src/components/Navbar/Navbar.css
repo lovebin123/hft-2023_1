@@ -126,31 +126,18 @@ a {
     font-style: normal;
     align-items: center;
     color: #ffffff;
-    font-size: 1.3rem;
-    cursor: pointer;
-    opacity: 0.6;
-    text-align: center;
-  }
-
-  .navmob__link:hover {
-    opacity: 1;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .navbar {
-    padding: 0 1rem;
-  }
-  .navbar__mob {
-    padding: 0 5rem;
-    position: relative;
-  }
-  .navbar_mob_close {
-    position: absolute;
-    top: 3rem;
-    right: 3rem;
-    font-size: 2rem;
-    color: white;
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    z-index: 100;
+    text-decoration: none;
   }
   
-}
+  .navbar__link {
+    text-decoration: none;
+    color: #ffffff; 
+  }
+  
+  .navbar__link:hover {
+    text-decoration: none;
+  }
