@@ -10,13 +10,13 @@
   height: 100%;
   display: flex;
   align-items: center;
+  padding-right: 3rem;
   justify-content: space-between;
-  padding-right: 5rem;
 }
 
 .nav_logo img {
   height: 100%;
-  width: 175px
+  width: 175px;
 }
 
 .nav_title {
@@ -61,7 +61,6 @@ a {
   cursor: pointer;
 }
 
-
 @media screen and (max-width: 1200px) {
   .nav_contents {
     gap: 1rem;
@@ -93,7 +92,11 @@ a {
   }
 
   .navbar__mob {
-    background:radial-gradient(200.65% 776.86% at -9.28% 116.91%,#140915 25.44%,var(--primary-color) 100%);
+    background: radial-gradient(
+      302.65% 802.86% at -9.28% 321.91%,
+      #140915 25.44%,
+      var(--primary-color) 100%
+    );
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -126,18 +129,30 @@ a {
     font-style: normal;
     align-items: center;
     color: #ffffff;
-    font-family: var(--primary-font);
-    font-size: 1.5rem;
-    font-weight: 400;
-    z-index: 100;
-    text-decoration: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    opacity: 0.6;
+    text-align: center;
   }
-  
-  .navbar__link {
-    text-decoration: none;
-    color: #ffffff; 
+
+  .navmob__link:hover {
+    opacity: 1;
   }
-  
-  .navbar__link:hover {
-    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    padding: 0 1rem;
   }
+  .navbar__mob {
+    padding: 0 5rem;
+    position: relative;
+  }
+  .navbar_mob_close {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    font-size: 2rem;
+    color: white;
+  }
+}
