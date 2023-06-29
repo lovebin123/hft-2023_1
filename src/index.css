@@ -25,11 +25,12 @@ body::-webkit-scrollbar-thumb {
   --primary-font: "Oxygen";
   --secondary-font: "Manrope";
   --primary-color:#28AA47;
+  --secondary-color:#f8f8ff;
 }
 
 /* common styles */
 .section__title{
-  color: #ffff;
+  color: #f8f8ff;
   font-family: var(--primary-font);
   font-size: 2.3rem;
   text-align: center;

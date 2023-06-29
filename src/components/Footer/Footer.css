@@ -8,6 +8,9 @@
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
+.footer__logo1{
+  order: 1;
+}
 .footer__content {
   display: flex;
   flex-direction: column;
@@ -15,6 +18,7 @@
   align-items: center;
   color: #fff;
   height: 100%;
+  order: 2;
 }
 
 .footer__social {
@@ -65,4 +69,27 @@
 .social__footer_icon:hover {
   transform: rotate(360deg);
   color: #28aa47;
+}
+.footer__logo2{
+  order: 3;
+  display: flex;
+}
+@media screen and (max-width: 800px) {
+.footer{
+  flex-direction: column;
+  align-items: center;
+}
+.footer__logo2{
+  order:1;
+  padding-bottom: 8%;
+  align-items: center;
+ 
+}
+.footer__logo2 img{
+  width: 80%;
+  margin: auto;
+}
+.footer__logo1 img{
+  display: none;
+}
 }

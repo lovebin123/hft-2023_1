@@ -14,7 +14,7 @@ const Footer = () => {
   return (
   
  <div class="footer">
-                    <a href="https://www.excelmec.org/" target="_blank" rel="noreferrer" > <img src={excel_logo} alt='excelLogo'/></a>
+                    <a className='footer__logo1' href="http://www.mec.ac.in/" target="_blank" rel="noreferrer" id="clg-logo" ><img src={mec_logo} alt='mecLogo'/></a>
                     <div class="footer__content">
                         <div class="footer__social">
                             <a href="https://www.facebook.com/excelmec/" target="_blank" rel="noreferrer">
@@ -34,7 +34,8 @@ const Footer = () => {
                             Made with <i class="fas fa-heart"></i> Excel 2023
                         </div>
                     </div>
-                    <a href="http://www.mec.ac.in/" target="_blank" rel="noreferrer" id="clg-logo" ><img src={mec_logo} alt='mecLogo'/></a>
+                    <a className='footer__logo2' href="https://www.excelmec.org/" target="_blank" rel="noreferrer" > <img src={excel_logo} alt='excelLogo'/></a>
+
                 </div>   
   )
 }
