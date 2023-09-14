@@ -12,7 +12,8 @@ const Hero = () => {
 
   return (
     <div className="hero__container">
-      <div className="hero__content">
+      
+      {/* <div className="hero__content">
         <div className="hero__txt">
           <div className="hero__hft_logo">
             <img className="hft__logo" src={hft_logo} alt="hft Logo " />
@@ -28,7 +29,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <AnimationComponent />
+      <AnimationComponent /> */}
+
     </div>
   );
 };
