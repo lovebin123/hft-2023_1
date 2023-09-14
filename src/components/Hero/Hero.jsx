@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "./Hero.css";
 import Aos from "aos";
-import hft_logo from "../../assets/svg/hft_logo.svg";
-import Counter from "../Counter/Counter";
-import AnimationComponent from "../AnimationComponent/AnimationComponent";
+// import hft_logo from "../../assets/svg/hft_logo.svg";
+// import Counter from "../Counter/Counter";
+// import AnimationComponent from "../AnimationComponent/AnimationComponent";
 
 const Hero = () => {
   useEffect(() => {

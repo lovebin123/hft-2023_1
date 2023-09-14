@@ -7,7 +7,7 @@ const About = () => {
     Aos.init({ duration: 900 });
   }, []);
   return (
-    <div className="about__container">
+    <div className="about__container" id="#about">
       <div className="abt__content" data-aos="zoom-in">
         <div className="abt__txt">
           <h1 data-aos="fade-left" className="section__title">About</h1>

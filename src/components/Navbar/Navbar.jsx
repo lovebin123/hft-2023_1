@@ -1,14 +1,15 @@
 import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
 import Drawer from "@mui/material/Drawer";
 import { IoMenu, IoClose } from "react-icons/io5";
-import { NavHashLink as NavLink } from "react-router-hash-link";
+import { Link as NavLink } from "react-scroll";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
-import "./Navbar.css";
 import excel_logo from "../../assets/svg/excel23_logo.svg";
+import "./Navbar.css";
 
 function Navbar() {
   const [drawer, setDrawer] = useState(false);
-
+  let scrollPosition = useScrollPosition();
   const handleDrawerOpen = () => {
     setDrawer(true);
   };
@@ -17,49 +18,42 @@ function Navbar() {
     setDrawer(false);
   };
 
-  const scrollPosition = useScrollPosition();
+  const location = useLocation();
 
-  const navStyle = {
-    background:'radial-gradient(302.65% 802.86% at -9.28% 321.91%,#140915 25.44%,var(--primary-color) 100%)',
+  const notHome = location.pathname.length > 1 ? true : false;
+
+  const navStyleHome = {
+    background: scrollPosition > 300 ? "#111111" : "rgba(17, 17, 17, 0.1)",
     boxShadow:
-      scrollPosition > 200 ? "#28AA47" : "none",
-  };
+      scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
+    backdropFilter: 'blur(10px)'
+  }
+  const navStyle = {
+    background: scrollPosition > 300 ? "#111111" : "#111111",
+    boxShadow:
+      scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
+    backdropFilter: 'none'
+  }
 
   return (
-    <div className="navbar" style={navStyle}>
+    <div className="navbar" style={notHome ? navStyle : navStyleHome}>
       <div className="navbar__main container">
-        <div className="nav_logo">
-          <NavLink to="/#">
-            <img src={excel_logo} alt="" />
+        <div className="nav__logo">
+          <NavLink>
+            <img className="nav__logo__img" src={excel_logo} alt="" />
           </NavLink>
         </div>
         <div className="nav_contents">
-          <NavLink to="/#about" className="nav__link">
-            About
-          </NavLink>
-          <NavLink to="/#about" className="nav__link">
-            Why Participate
-          </NavLink>
-
-          <NavLink to="/#timeline" className="nav__link">
-            Timeline
-          </NavLink>
-          <NavLink to="/#about" className="nav__link">
-            Prizes
-          </NavLink>
-          <NavLink to="/#about" className="nav__link">
-            Gallery
-          </NavLink>
-          <NavLink to="/#about" className="nav__link">
-            FAQ
-          </NavLink>
-          <NavLink to="/#about" className="nav__link">
-            Bounties
-          </NavLink>
-          <NavLink to="/#team" className="nav__link">
-            Contacts Us
-          </NavLink>
+          <NavLink className="nav__link" to="#home">Home</NavLink>
+          <NavLink className="nav__link" to="#about" smooth={true}>About</NavLink>
+          <NavLink className="nav__link">Speakers</NavLink>
+          <NavLink className="nav__link">Panelists</NavLink>
+          <NavLink className="nav__link">Schedule</NavLink>
+          <NavLink className="nav__link">Contact Us</NavLink>
         </div>
+        {/* <a href='https://rzp.io/l/finnext' target='_blank' rel="noreferrer">
+          <button className="nav_btn">Register</button>
+        </a> */}
 
         <div className="nav_hamburger" onClick={handleDrawerOpen}>
           <IoMenu className="nam_menu_icon" />
@@ -82,6 +76,17 @@ function Navbar() {
           </div>
           <div className="navbar__mobcontents">
             <NavLink
+              data-aos="fade-right"
+              data-aos-duration="200"
+              to="/#home"
+              onClick={handleDrawerClose}
+              className="navmob__link"
+            >
+              Home
+            </NavLink>
+            <NavLink
+              data-aos="fade-right"
+              data-aos-duration="400"
               to="/#about"
               onClick={handleDrawerClose}
               className="navmob__link"
@@ -89,35 +94,36 @@ function Navbar() {
               About
             </NavLink>
             <NavLink
-              to="/#highlights"
+              data-aos="fade-right"
+              data-aos-duration="600"
+              to="/#speakers"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Highlights
+              Speakers
             </NavLink>
             <NavLink
-              to="/#timeline"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              to="/#panelists"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Timeline
+              Panelists
             </NavLink>
             <NavLink
-              to="/#partners"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              to="/#schedule"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Participating Organizations
+              Schedule
             </NavLink>
             <NavLink
-              to="/#organizations"
-              onClick={handleDrawerClose}
-              className="navmob__link"
-            >
-              Organized by
-            </NavLink>
-            <NavLink
-              to="/#team"
+              data-aos="fade-right"
+              data-aos-duration="1400"
+              to="/#contact"
               onClick={handleDrawerClose}
               className="navmob__link"
             >

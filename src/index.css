@@ -5,8 +5,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
-  background-image: url("./assets/png/main_bg5.png");
+  background: #1A1617;
+  /* background-image: url("./assets/png/main_bg5.png"); */
 }
 body::-webkit-scrollbar {
   width: 0.7em;
