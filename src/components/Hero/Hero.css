@@ -1,24 +1,121 @@
 .hero__container {
-  width: 100%;
-  max-height: 100%;
+  display:flex;
+width: 300%;
+
+  max-width: 100%;
   margin-top: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  
+  flex-direction:column;
+
   padding: 5rem 0rem 4em 0rem;
   
 }
-/*
+
 .hero__content {
-  height: 100%;
+  display: flex;
+
   width: 100%;
-  
+  max-width: 100%;
   display: flex;
   flex-direction: column;
+ 
+}
+.hero_gradient{
+   height: 0.2vh;
+   width: 100%;
+   background-image: linear-gradient(120deg, rgb(37, 107, 37),#00FF00,#197719);
+}
+.hero_marquee{
+  background-color: black;
+  font-family:  'Manrope';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 0.75rem;
+  line-height: normal;
+  letter-spacing: 0.5rem;
+}
+.hero__hft_logo{
+  display: flex;
+  flex-direction: column;
+height:45rem;
+margin-top: 1.563rem;
+margin-bottom: -7.5rem;
+}
+.hero_hft__bg
+{
+  display: flex;
+  flex-direction: column;
+  height: 45rem;
+
+  object-fit: cover;
+  transform: translateY(-1.25rem);
+}
+
+.hero_icons
+{
+  display: flex;
+  flex-direction: column;
+ position: relative;
+ bottom: 45.625rem;
+ 
+opacity: 0.9;
+
+}
+.hft_logo{
+  display: flex;
+  height: 17.5rem;
+  position: relative;
+  bottom: 80.313rem;
+  right: 18.75rem;
+}
+.dte{
+  color: #FFF;
+text-align: center;
+font-family: 'Oxygen';
+position: relative;
+font-size: 1.9375rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+bottom: 118.75rem;
+right: 18.125rem;
+}
+.hero_df_btn {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 26.688rem;
+height: 4rem;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #008B4A;
+background-color: black;
+position: relative;
+right: -28.125rem;
+bottom:5rem;
 }
+.registeration{
+  color: #2DB34A;
+text-align: center;
+font-family: Oxygen;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+position: relative;
+right: -0.25rem;
+line-height: normal;
+}
+.hero_aihead{
+  display: flex;
+  height: 37.5rem;
+  position: relative;
+  bottom: 107.375rem;
+  right: -28.125rem;
+  opacity: 0.8;
+}
+/*
 .hero__txt {
   display: flex;
   flex-direction: column;
@@ -52,26 +149,7 @@
   justify-content: center;
   align-items: center;
 }
-.hero_df_btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0rem;
-  color: dimgray;
-  padding: .5rem 9rem;
 
-  background: white;
-  border-radius: 0.5rem;
-  border: none;
-
-  font-family: var(--primary-font);
-  font-size: 1.25rem;
-  font-weight: 600;
-  flex-shrink: 1;
-
-
-}
 
 
 .hero__rem_time {
