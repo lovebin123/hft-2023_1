@@ -28,18 +28,25 @@ const Hero = () => {
           </Marquee>
 </div>
           <div className="hero__hft_logo">
-            <img className="hero_hft__bg" src={BG} alt="hft background " />
-       
-            <img className="hero_icons" src={icons} alt="hft icons"/>
-           <img className="hft_logo" src={logo} alt="hft logo"/>
-           <img className="hero_aihead" src={aihead} alt="ai_head"/>
-           <p className="dte">18th - 19th Nov 2023</p>
-          </div>
-          <div className="hero__df">
+         
+        
+         <div className="hft_logo">
+           <img className="hft_logo1" src={logo} alt="hft logo"/>
+           
+           <div className="hero__df">
+          <p className="dte">18th - 19th Nov 2023</p>
             <button className="hero_df_btn" data-aos="zoom-in"  >
+         
             <img className="dev" src={devfolio}/>   <p className="registeration">Register Now</p>
             </button>
           </div>
+          
+           </div>
+         <div className="hero_aihead">
+           <img  src={aihead} alt="ai_head"/>
+          </div>
+          </div>
+         
         
        
       </div>
