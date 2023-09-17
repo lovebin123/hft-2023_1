@@ -244,7 +244,7 @@ line-height: normal;
    }
   }
   
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
     .hero_aihead img {
       width: 15rem;
       height:48rem;
@@ -272,7 +272,6 @@ line-height: normal;
   }
   
   @media only screen and (device-width: 768px) {
-    
   }
 /*
 .hero__txt {
