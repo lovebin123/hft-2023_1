@@ -10,7 +10,8 @@ import {
   Prizes,
   Bounties,
   Faq,
-  Gallery
+  Gallery,
+  Partners
 } from "../../components";
 const MainPage = () => {
   return (
@@ -23,6 +24,7 @@ const MainPage = () => {
       <Prizes />
       <Gallery/>
       <Faq/>
+      <Partners/>
       <Bounties/>
       <Contacts />
       <Footer />

@@ -8,6 +8,7 @@
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
+
 .footer__logo1{
   order: 1;
 }
@@ -86,7 +87,7 @@
  
 }
 .footer__logo2 img{
-  width: 80%;
+  width: 10rem;
   margin: auto;
 }
 .footer__logo1 img{
