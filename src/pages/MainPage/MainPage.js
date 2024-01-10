@@ -9,7 +9,7 @@ import {
   Contacts,
   Prizes,
   Bounties,
-  Faq,
+  // Faq,
   Gallery,
   Partners
 } from "../../components";
@@ -23,7 +23,7 @@ const MainPage = () => {
       <Timeline />
       <Prizes />
       <Gallery/>
-      <Faq/>
+      {/* <Faq/> */}
       <Partners/>
       <Bounties/>
       <Contacts />
