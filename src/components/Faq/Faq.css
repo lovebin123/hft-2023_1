@@ -7,6 +7,7 @@
 	justify-content: space-around;
 	align-items: center;
 	gap: 2rem;
+	color: #f8f8ff;
 }
 
 .faq__illustration__contain {
@@ -44,6 +45,10 @@
 .faq_title {
 	font-size: 1.8rem;
 	position: relative;
+}
+
+.faq_title.mobile {
+	display: none;
 }
 
 .faq_title::after {
@@ -94,7 +99,6 @@
 	max-height: 0;
 	overflow: hidden;
 	transition: all 0.3s cubic-bezier(0, 1, 0, 1);
-	color: rgb(209, 200, 200);
 
 	font-size: 1rem;
 }
@@ -109,6 +113,9 @@
 	.faq__main__contain {
 		flex-direction: column;
 		gap: 1rem;
+	}
+	.faq__illustration__contain {
+		width: 65%;
 	}
 
 	.faq__contain {
@@ -129,5 +136,13 @@
 
 	.faq__accordion__heading > h3 {
 		font-size: 1.2rem;
+	}
+
+	.faq_title {
+		display: none;
+	}
+
+	.faq_title.mobile {
+		display: block;
 	}
 }

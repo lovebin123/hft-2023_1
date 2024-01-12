@@ -10,13 +10,12 @@
 .abt__content {
   padding: 2rem 4rem 2rem 4rem;
   width: 70%;
-  background: rgba(89, 89, 89, 0.21);
-    border-width: 0px 0.25px 0.25px 0px;
-    border-style: solid;
-    border-color: #ffffff1f;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 30px;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(2, 107, 18, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -48,52 +47,42 @@
   flex-shrink: 1;
 }
 
-
 @media only screen and (max-width: 1200px) {
- .abt__content{
-  flex-direction: column;
-  padding: .5rem 1rem .5rem 1rem;
- }
- .abt__image_container img{
-  width: 100%;
-  
- }
+  .abt__content {
+    flex-direction: column;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+  .abt__image_container img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
-
 }
 
 @media screen and (max-width: 992px) {
-
 }
 
 @media screen and (max-width: 800px) {
-
 }
 
 @media screen and (max-width: 600px) {
-  .abt__content{
-    padding: .2rem .4rem .2rem .4rem;
-   }
+  .abt__content {
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+  }
 }
 @media screen and (max-width: 500px) {
-  .abt__content{
+  .abt__content {
     width: 88%;
-    padding: .1rem .2rem .1rem .2rem;
-   }
+    padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
-
-}
-  
-@media only screen and (min-device-width: 320px) and (max-device-width: 
-  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
-
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+}
 
 @media only screen and (device-width: 768px) {
-
 }
