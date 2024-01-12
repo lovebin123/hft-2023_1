@@ -13,6 +13,9 @@ const Faq = () => {
 
 	return (
 		<div className='faq__main__contain'>
+			<h1 className='section__title faq_title mobile'>
+				Frequently Asked Questions
+			</h1>
 			<FaqIllustration />
 			<div className='faq__contain'>
 				<h1 className='section__title faq_title'>
@@ -119,8 +122,8 @@ const faqData = [
 		answer: 'Nope, all coding must be done during the hackathon. Feel free to brainstorm ideas and create wireframes, though!',
 	},
 	{
-		question: 'I\'m a beginner, can I participate?',
-		answer: 'Absolutely! We\'ll have mentors to help you out. Hackathons are a great place to learn new skills.',
+		question: "I'm a beginner, can I participate?",
+		answer: "Absolutely! We'll have mentors to help you out. Hackathons are a great place to learn new skills.",
 	},
 	{
 		question: 'I have more questions.',
