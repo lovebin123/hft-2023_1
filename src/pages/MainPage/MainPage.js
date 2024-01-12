@@ -9,8 +9,9 @@ import {
   Contacts,
   Prizes,
   Bounties,
-  Faq,
-  Gallery
+  // Faq,
+  Gallery,
+  Partners
 } from "../../components";
 const MainPage = () => {
   return (
@@ -22,7 +23,8 @@ const MainPage = () => {
       <Timeline />
       <Prizes />
       <Gallery/>
-      <Faq/>
+      {/* <Faq/> */}
+      <Partners/>
       <Bounties/>
       <Contacts />
       <Footer />

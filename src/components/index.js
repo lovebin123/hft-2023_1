@@ -11,3 +11,4 @@ export { default as Bounties } from "./Bounties/Bounties";
 export { default as Carousel } from "./Carousel/Carousel";
 export { default as Gallery } from "./Gallery/Gallery";
 export { default as Faq } from "./Faq/Faq";
+export {default as Partners} from './Partners/Partners'

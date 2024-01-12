@@ -4,7 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Footer.css";
 import mec_logo from "../../assets/svg/mec_logo.svg";
-import excel_logo from "../../assets/svg/excel23_logo.svg";
+import excel_logo from "../../assets/png/excelLogoWithText.png";
 import {
   FaInstagram,
   FaLinkedinIn,
@@ -69,7 +69,7 @@ const Footer = () => {
         rel="noreferrer"
       >
         {" "}
-        <img src={excel_logo} alt="excelLogo" />
+        <img src={excel_logo} alt="excelLogo" style={{width:"10rem"}} />
       </a>
     </div>
   );
