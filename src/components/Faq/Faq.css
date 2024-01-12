@@ -47,6 +47,10 @@
 	position: relative;
 }
 
+.faq_title.mobile {
+	display: none;
+}
+
 .faq_title::after {
 	content: '';
 	position: absolute;
@@ -110,6 +114,9 @@
 		flex-direction: column;
 		gap: 1rem;
 	}
+	.faq__illustration__contain {
+		width: 65%;
+	}
 
 	.faq__contain {
 		width: 80%;
@@ -129,5 +136,13 @@
 
 	.faq__accordion__heading > h3 {
 		font-size: 1.2rem;
+	}
+
+	.faq_title {
+		display: none;
+	}
+
+	.faq_title.mobile {
+		display: block;
 	}
 }
