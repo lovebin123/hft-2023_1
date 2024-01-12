@@ -15,7 +15,7 @@ const TimelineComponent = () => {
     fontFamily: "Oxygen",
   };
 
-  const gradient = "#000000";
+  const gradient = "#1a1617";
   const border = "border:5px solid #ffff;";
 
   return (
