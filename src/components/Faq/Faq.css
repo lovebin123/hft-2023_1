@@ -1,0 +1,133 @@
+.faq__main__contain {
+	box-sizing: border-box;
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	gap: 2rem;
+	color: #f8f8ff;
+}
+
+.faq__illustration__contain {
+	max-width: 20rem;
+}
+
+.faq__illustration__contain::after {
+	content: '';
+    position: absolute;
+    display: block;
+	background: radial-gradient(
+		31.48% 31.48% at 50% 50%,
+		rgba(8, 148, 71, 0.46) 0%,
+		rgba(0, 0, 0, 0) 100%
+	);
+    left: -20px;
+    bottom: -60px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.faq__illustration__contain > img {
+	width: 100%;
+	aspect-ratio: initial;
+}
+
+.faq__contain {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.faq_title {
+	font-size: 1.8rem;
+	position: relative;
+}
+
+.faq_title::after {
+	content: '';
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	width: 40px;
+	height: 3px;
+	border-radius: 6.39px;
+	background-color: var(--primary-color);
+}
+
+.faq__accordion_wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 0.4rem;
+	width: 500px;
+}
+
+.faq__item_wrapper {
+	box-sizing: border-box;
+	cursor: pointer;
+	width: 100%;
+	padding: 0 2rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.faq__accordion__heading {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.faq__accordion__heading > h3 {
+	font-size: 1.3rem;
+}
+
+.faq__accordion__content {
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.3s cubic-bezier(0, 1, 0, 1);
+
+	font-size: 1rem;
+}
+
+.faq__accordion__content.show {
+	height: auto;
+	max-height: 999px;
+	transition: all 0.3s cubic-bezier(1, 0, 1, 0);
+}
+
+@media (max-width: 850px) {
+	.faq__main__contain {
+		flex-direction: column;
+		gap: 1rem;
+	}
+
+	.faq__contain {
+		width: 80%;
+	}
+
+	.faq_title {
+		font-size: 1.4rem;
+	}
+
+	.faq__accordion_wrapper {
+		width: 100%;
+	}
+
+	.faq__item_wrapper {
+		padding: 0;
+	}
+
+	.faq__accordion__heading > h3 {
+		font-size: 1.2rem;
+	}
+}

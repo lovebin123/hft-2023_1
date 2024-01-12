@@ -46,10 +46,16 @@
   color: #ffff;
   font-family: var(--secondary-font);
 }
+<<<<<<< HEAD
 .vertical-timeline-element-content {
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
     0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
   flex-basis: 20%;
+=======
+.vertical-timeline-element-content{
+    /* box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25),0 0.4em 1.25em 0 rgba(0,0,0,0.15) !important; */
+    flex-basis: 20%;
+>>>>>>> a9b6c368c9b263f15c4d85fc351038d6dd324ca4
 }
 
 .vertical-timeline-element {
