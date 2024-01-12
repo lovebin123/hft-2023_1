@@ -7,6 +7,7 @@
 	justify-content: space-around;
 	align-items: center;
 	gap: 2rem;
+	color: #f8f8ff;
 }
 
 .faq__illustration__contain {
@@ -94,7 +95,6 @@
 	max-height: 0;
 	overflow: hidden;
 	transition: all 0.3s cubic-bezier(0, 1, 0, 1);
-	color: rgb(209, 200, 200);
 
 	font-size: 1rem;
 }
