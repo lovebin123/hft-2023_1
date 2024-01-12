@@ -5,7 +5,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #1A1617;
+  background: #000000;
   /* background-image: url("./assets/png/main_bg5.png"); */
 }
 body::-webkit-scrollbar {
@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #2a2d32;
+  background: #000000;
 }
 
 body::-webkit-scrollbar-thumb {
