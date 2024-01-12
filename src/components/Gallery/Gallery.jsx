@@ -11,9 +11,9 @@ import img7 from "../../assets/gallery/7.jpeg";
 const Gallery = () => {
   return (
     <div className="section gallery">
-      <div className="title" data-aos="fade-up" data-aos-duration="1000">
+      <h1 className="section__title" data-aos="fade-up" data-aos-duration="1000">
         OUR GALLERY
-      </div>
+      </h1>
       <div className="img-container" data-aos="zoom-in" data-aos-duration="1500">
         <div className="box box-lh">
           <img src={img1} alt="" />

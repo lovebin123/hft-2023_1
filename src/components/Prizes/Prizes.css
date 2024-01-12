@@ -8,7 +8,10 @@
   /* background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  
   background-image: url("../../assets/svg/bg_light.svg"); */
+  background: radial-gradient(53.46% 53.46% at 50% 50%, rgba(8, 148, 71, 0.46) 0%, rgba(0, 0, 0, 0.00) 100%);
+  background-image: url('../../assets/png/prizesBg.png');
 }
 .prizes__content {
   width: 80%;
