@@ -5,8 +5,12 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
   background: #1A1617;
   /* background: radial-gradient(53.46% 53.46% at 50% 50%, rgba(8, 148, 71, 0.46) 0%, rgba(0, 0, 0, 0.00) 100%); */
+=======
+  background: #000000;
+>>>>>>> master
   /* background-image: url("./assets/png/main_bg5.png"); */
 }
 body::-webkit-scrollbar {
@@ -14,7 +18,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #2a2d32;
+  background: #000000;
 }
 
 body::-webkit-scrollbar-thumb {
