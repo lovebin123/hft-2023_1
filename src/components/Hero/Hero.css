@@ -1,9 +1,10 @@
 .hero__main__contain {
   width: 100%;
-  max-height: 100vh;
+  background-image: url('../../assets/png/landingMainBg.png');
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
-  margin-top: 7rem;
+  padding-top: 6rem;
   justify-content: center;
   align-items: center;
 }
@@ -11,11 +12,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 2rem;
   justify-content: center;
 }
 .hero__hft>p{
   font-family: var(--primary-font);
   font-size: 2rem;
+  color: #ffff;
 }
 .hero__hft>img{
   width: 35rem;
