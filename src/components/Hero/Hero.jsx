@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Hero.css";
-import Marquee from "react-fast-marquee";
-import logo from "../../assets/svg/hft_logo.svg";
+import logo from "../../assets/png/hftLogoFinal.png";
 import aihead from "../../assets/svg/Clip path group.svg";
 import { IoLocation } from "react-icons/io5";
 import Stars from "../Stars/Stars";
@@ -51,58 +50,40 @@ const Hero = () => {
   return (
     <div className="hero__container">
       <Stars />
-      <div className="hero__content">
-        <div className="hero_gradient"></div>
-        <div className="hero_marquee">
-          <Marquee autoFill={true}>
-            INNOVATE &nbsp;HACK &nbsp;INSPIRE&nbsp;
-          </Marquee>
-        </div>
-        <div className="hero__hft_logo">
-          <div className="hft_logo">
-            <img className="hft_logo1" src={logo} alt="hft logo" />
-
-            <div className="hero__df">
-              <p
-                className="location__info"
-                onClick={() => {
-                  window.open("https://maps.app.goo.gl/9BpfRfVy34zXQTa19");
-                }}
-              >
-                <IoLocation size={35} /> Kerala Startup Mission,Kalamassery,
-                Kochi, Kerala
-              </p>
-              <p className="dte">
-                <FaCalendarAlt size={30} /> 3rd - 4th Feb 2024
-              </p>
-              <div
-                class="apply-button"
-                data-hackathon-slug="hft"
-                data-button-theme="light"
-                style={{
-                  height: "44px",
-                  width: "312px",
-                }}
-              ></div>
-              <div className="timer_main_contain">
-                <div className="timeer__time_contain">
-                  <p>{timeLeft.days}</p>
-                  <p>{timeLeft.hours}</p>
-                  <p>{timeLeft.minutes}</p>
-                  <p>{timeLeft.seconds}</p>
-                </div>
-                <div className="timer__unit_container">
-                  <p>Days</p>
-                  <p>Hours</p>
-                  <p>Minutes</p>
-                  <p>Seconds</p>
-                </div>
-              </div>
-            </div>
+      <div className="hero__content_part">
+        <img src={logo} alt="" />
+        <p className="hero__location__info">
+          <IoLocation /> Kerala Startup Mission,Kalamassery, Kochi, Kerala
+        </p>
+        <p className="hero__date_info">
+          <FaCalendarAlt />
+          3rd - 4th Feb 2024
+        </p>
+        <div
+          class="apply-button"
+          data-hackathon-slug="hft"
+          data-button-theme="light"
+          style={{
+            height: "44px",
+            width: "312px",
+          }}
+        ></div>
+        <div className="timer_main_contain">
+          <div className="timeer__time_contain">
+            <p>{timeLeft.days}</p>
+            <p>{timeLeft.hours}</p>
+            <p>{timeLeft.minutes}</p>
+            <p>{timeLeft.seconds}</p>
           </div>
-          <img className="hero_aihead" src={aihead} alt="ai_head" />
+          <div className="timer__unit_container">
+            <p>Days</p>
+            <p>Hours</p>
+            <p>Minutes</p>
+            <p>Seconds</p>
+          </div>
         </div>
       </div>
+      <img src={aihead} alt="" className="ai__head_hero" />
     </div>
   );
 };
