@@ -3,7 +3,7 @@
   padding-top: 8rem;
   padding-bottom: 5rem;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   width: 100vw;
   min-height: 90vh;
@@ -44,7 +44,7 @@
   width: 35rem;
 }
 .hero__container > img {
-  width: 30rem;
+  width: 40rem;
   /* margin-top: -25%; */
 }
 .timer_main_contain {
@@ -77,4 +77,52 @@
   box-shadow: 7px 7px 24px #498108, -7px -7px 24px #518f08;
   color: #ffff;
   font-family: var(--primary-font);
+}
+
+@media only screen and (max-width: 1300px) {
+
+}
+@media (min-device-width: 20px) and (max-device-width: 500px){
+   
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 900px) {
+  .hero__container>img{
+    display: none;
+  }
+  .hero__container{
+    /* display: unset; */
+  }
+}
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 400px) {
+
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
 }

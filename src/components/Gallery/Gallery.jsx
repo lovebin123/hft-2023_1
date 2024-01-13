@@ -12,7 +12,7 @@ const Gallery = () => {
   return (
     <div className="section gallery">
       <h1 className="section__title" data-aos="fade-up" data-aos-duration="1000">
-        OUR GALLERY
+        Our Gallery
       </h1>
       <div className="img-container" data-aos="zoom-in" data-aos-duration="1500">
         <div className="box box-lh">
