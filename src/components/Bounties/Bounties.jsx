@@ -86,7 +86,7 @@ const Bounties = () => {
         <div className="bounties__marque">
         
 
-          <Marquee direction="left" speed={250} pauseOnHover={true} loop={0} delay={0} style={{textAlign:'justify', width: "60%"}}>
+          <Marquee direction="left" speed={100} pauseOnHover={true} loop={0} delay={0} style={{textAlign:'justify', width: "60%"}}>
           <Mcard />
           <Mcard />
           <Mcard />
