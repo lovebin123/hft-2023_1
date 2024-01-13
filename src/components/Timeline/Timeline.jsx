@@ -6,6 +6,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import "./Timeline.css";
 import Aos from "aos";
+import Stars from "../Stars/Stars";
 const TimelineComponent = () => {
   useEffect(() => {
     Aos.init({ duration: 1100 });
@@ -15,11 +16,13 @@ const TimelineComponent = () => {
     fontFamily: "Oxygen",
   };
 
-  const gradient = "#1a1617";
-  const border = "border:5px solid #ffff;";
+  // const gradient = "#1a1617";
+  const gradient="transparent"
+  const border = "none";
 
   return (
     <div className="timeline" id="timeline">
+      <Stars/>
       <div className="timeline__container">
         <h2 className="section__title">Timeline</h2>
 
@@ -29,7 +32,7 @@ const TimelineComponent = () => {
               className="vertical-timeline-element--work "
               contentStyle={{
                 color: "#ffff",
-                background: gradient,
+               background: "transparent",
                 border: border,
               }}
               contentArrowStyle={{ display: "none" }}

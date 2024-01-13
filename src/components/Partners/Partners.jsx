@@ -3,9 +3,11 @@ import "./Partners.css";
 import replit from "../../assets/png/replit.png";
 import devfolio from "../../assets/png/devfolio.png";
 import polygon from "../../assets/png/polygon.png";
+import Stars from "../Stars/Stars";
 const Partners = () => {
   return (
     <div className="partners__main__contain">
+      <Stars/>
       <h1 className="section__title">Partners</h1>
       <div className="partners__contain">
         <a href="https://devfolio.co">

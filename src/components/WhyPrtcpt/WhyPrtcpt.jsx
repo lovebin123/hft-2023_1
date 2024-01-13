@@ -4,12 +4,14 @@ import Aos from "aos";
 import { BsPeopleFill, BsTrophyFill, BsCodeSquare } from "react-icons/bs";
 import { AiFillGift } from "react-icons/ai";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
+import Stars from "../Stars/Stars";
 const WhyPrtcpt = () => {
   useEffect(() => {
     Aos.init({ duration: 700 });
   }, []);
   return (
     <div className="y_partcipate__container">
+      <Stars/>
       <h1 className="section__title">Why Participate</h1>
       <div className="y_ppt_content">
         <div className="yppt_card_and_image" aos-delay="200" data-aos="zoom-in">

@@ -1,7 +1,7 @@
 export const contactsData = [
     {
       id: 1,
-      name: "Nasreen K Basheer",
+      name: "Mathew Davis",
       designation: "Chairperson",
       image:"https://avatars.githubusercontent.com/u/75477017?v=4",
       phone: "9605204433",
@@ -10,7 +10,7 @@ export const contactsData = [
     },
     {
       id: 2,
-      name: "Hemanth Sagar J C",
+      name: "Vishnu S",
       designation: "General Secretary",
       image:"https://avatars.githubusercontent.com/u/75477017?v=4",
       phone: "7012910210",
@@ -19,7 +19,7 @@ export const contactsData = [
     },
     {
       id: 3,
-      name: "Sebin Davis",
+      name: "Abhishek P",
       designation: "Joint Secretary",
       image:"https://avatars.githubusercontent.com/u/75477017?v=4",
       phone: "8921212340",
@@ -28,8 +28,8 @@ export const contactsData = [
     },
     {
       id: 4,
-      name: "Sania Maria Sabu",
-      designation: "Social Initiatives Manager",
+      name: "Mayon Francis",
+      designation: "CS-Tech Manager",
       image:"https://avatars.githubusercontent.com/u/75477017?v=4",
       phone: "7306928074",
       email: "saniamariasabu.mec@gmail.com",

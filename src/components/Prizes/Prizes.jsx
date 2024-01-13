@@ -24,6 +24,7 @@ const Prizes = () => {
 
   return (
     <div className="prizes__container" ref={containerRef}>
+      {/* <Stars/> */}
       <div className="prizes__content">
         <div className="prizes__title" data-aos="zoom-in">
           <h1 className="section__title">Prizes</h1>

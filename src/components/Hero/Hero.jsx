@@ -1,10 +1,43 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Hero.css";
 import Marquee from "react-fast-marquee";
 import logo from "../../assets/svg/hft_logo.svg";
 import aihead from "../../assets/svg/Clip path group.svg";
 import { IoLocation } from "react-icons/io5";
+import Stars from "../Stars/Stars";
+import { FaCalendarAlt } from "react-icons/fa";
+const calculateTimeLeft = () => {
+  let difference = +new Date("2024-02-03T11:00:00+05:30") - +new Date(); // MM/DD/YYYY
+  let timeLeft = {};
+
+  if (difference > 0) {
+    timeLeft = {
+      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((difference / 1000 / 60) % 60),
+      seconds: Math.floor((difference / 1000) % 60),
+    };
+  } else {
+    timeLeft = {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+    };
+  }
+
+  return timeLeft;
+};
 const Hero = () => {
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  });
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://apply.devfolio.co/v2/sdk.js";
@@ -17,6 +50,7 @@ const Hero = () => {
   }, []);
   return (
     <div className="hero__container">
+      <Stars />
       <div className="hero__content">
         <div className="hero_gradient"></div>
         <div className="hero_marquee">
@@ -35,9 +69,12 @@ const Hero = () => {
                   window.open("https://maps.app.goo.gl/9BpfRfVy34zXQTa19");
                 }}
               >
-                <IoLocation /> KSUM Cochin
+                <IoLocation size={35} /> Kerala Startup Mission,Kalamassery,
+                Kochi, Kerala
               </p>
-              <p className="dte">18th - 19th Nov 2023</p>
+              <p className="dte">
+                <FaCalendarAlt size={30} /> 3rd - 4th Feb 2024
+              </p>
               <div
                 class="apply-button"
                 data-hackathon-slug="hft"
@@ -47,6 +84,20 @@ const Hero = () => {
                   width: "312px",
                 }}
               ></div>
+              <div className="timer_main_contain">
+                <div className="timeer__time_contain">
+                  <p>{timeLeft.days}</p>
+                  <p>{timeLeft.hours}</p>
+                  <p>{timeLeft.minutes}</p>
+                  <p>{timeLeft.seconds}</p>
+                </div>
+                <div className="timer__unit_container">
+                  <p>Days</p>
+                  <p>Hours</p>
+                  <p>Minutes</p>
+                  <p>Seconds</p>
+                </div>
+              </div>
             </div>
           </div>
           <img className="hero_aihead" src={aihead} alt="ai_head" />
