@@ -49,11 +49,16 @@ const Hero = () => {
   }, []);
   return (
     <div className="hero__container">
-      <Stars/>
+      <Stars />
       <div className="hero__content_part">
         <img src={logo} alt="" />
-        <p className="hero__location__info"><IoLocation/> Kerala Startup Mission,Kalamassery, Kochi, Kerala</p>
-        <p className="hero__date_info"><FaCalendarAlt/>3rd - 4th Feb 2024</p>
+        <p className="hero__location__info">
+          <IoLocation /> Kerala Startup Mission,Kalamassery, Kochi, Kerala
+        </p>
+        <p className="hero__date_info">
+          <FaCalendarAlt />
+          3rd - 4th Feb 2024
+        </p>
         <div
           class="apply-button"
           data-hackathon-slug="hft"
@@ -63,14 +68,14 @@ const Hero = () => {
             width: "312px",
           }}
         ></div>
-        <div className="timer__hero_holder">
-          <div className="time__value_container">
-            <p>22</p>
-            <p>22</p>
-            <p>22</p>
-            <p>22</p>
+        <div className="timer_main_contain">
+          <div className="timeer__time_contain">
+            <p>{timeLeft.days}</p>
+            <p>{timeLeft.hours}</p>
+            <p>{timeLeft.minutes}</p>
+            <p>{timeLeft.seconds}</p>
           </div>
-          <div className="time__unit__container">
+          <div className="timer__unit_container">
             <p>Days</p>
             <p>Hours</p>
             <p>Minutes</p>
