@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Hero.css";
-import logo from "../../assets/png/hftLogo.png";
+import logo from "../../assets/png/hftLogoFinal.png";
 import aihead from "../../assets/svg/Clip path group.svg";
 import { IoLocation } from "react-icons/io5";
 import Stars from "../Stars/Stars";
@@ -49,7 +49,7 @@ const Hero = () => {
   }, []);
   return (
     <div className="hero__container">
-      {/* <Stars/> */}
+      <Stars/>
       <div className="hero__content_part">
         <img src={logo} alt="" />
         <p className="hero__location__info"><IoLocation/> Kerala Startup Mission,Kalamassery, Kochi, Kerala</p>
@@ -78,7 +78,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      {/* <img src={aihead} alt="" className="ai__head_hero" /> */}
+      <img src={aihead} alt="" className="ai__head_hero" />
     </div>
   );
 };
