@@ -1,6 +1,7 @@
 .hero__container {
   display: flex;
-  padding-top: 25rem;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
@@ -10,6 +11,20 @@
   background-image: url("../../assets/png/landingMainBg.png");
   background-position: center;
   object-fit: contain;
+}
+.hero__location__info{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.hero__date_info{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 .hero__content_part {
   display: flex;
@@ -30,5 +45,36 @@
 }
 .hero__container > img {
   width: 30rem;
-  margin-top: -25%;
+  /* margin-top: -25%; */
+}
+.timer_main_contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+}
+.timeer__time_contain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  font-family: var(--primary-font);
+}
+.timer__unit_container {
+  display: flex;
+  font-size: 1rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  border: 2px solid #00ff00;
+  border-radius: 20px;
+  box-shadow: 7px 7px 24px #498108, -7px -7px 24px #518f08;
+  color: #ffff;
+  font-family: var(--primary-font);
 }
