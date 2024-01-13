@@ -10,7 +10,7 @@ const WhyPrtcpt = () => {
     Aos.init({ duration: 700 });
   }, []);
   return (
-    <div className="y_partcipate__container">
+    <div className="y_partcipate__container" id="whyprtcipate">
       <Stars/>
       <h1 className="section__title">Why Participate</h1>
       <div className="y_ppt_content">

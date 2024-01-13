@@ -12,7 +12,7 @@ const Faq = () => {
 	};
 
 	return (
-		<div className='faq__main__contain'>
+		<div className='faq__main__contain' id="faq">
 			<h1 className='section__title faq_title mobile'>
 				Frequently Asked Questions
 			</h1>

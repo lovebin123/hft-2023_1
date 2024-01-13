@@ -44,12 +44,12 @@ function Navbar() {
           </NavLink>
         </div>
         <div className="nav_contents">
-          <NavLink className="nav__link" to="#home">Home</NavLink>
-          <NavLink className="nav__link" to="#about" smooth={true}>About</NavLink>
-          <NavLink className="nav__link">Speakers</NavLink>
-          <NavLink className="nav__link">Panelists</NavLink>
-          <NavLink className="nav__link">Schedule</NavLink>
-          <NavLink className="nav__link">Contact Us</NavLink>
+          <NavLink className="nav__link" to="home" smooth={true}>Home</NavLink>
+          <NavLink className="nav__link" to="about" smooth={true}>About</NavLink>
+          <NavLink className="nav__link" to="whyprtcipate" smooth={true}>Why Particpipate</NavLink>
+          <NavLink className="nav__link" to="timeline" smooth={true}>Timeline</NavLink>
+          <NavLink className="nav__link" to="faq" smooth={true}>FAQ</NavLink>
+          <NavLink className="nav__link" to="contact" smooth={true}>Contact Us</NavLink>
         </div>
         {/* <a href='https://rzp.io/l/finnext' target='_blank' rel="noreferrer">
           <button className="nav_btn">Register</button>
@@ -78,7 +78,7 @@ function Navbar() {
             <NavLink
               data-aos="fade-right"
               data-aos-duration="200"
-              to="/#home"
+              to="home"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
@@ -87,7 +87,7 @@ function Navbar() {
             <NavLink
               data-aos="fade-right"
               data-aos-duration="400"
-              to="/#about"
+              to="about"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
@@ -96,34 +96,34 @@ function Navbar() {
             <NavLink
               data-aos="fade-right"
               data-aos-duration="600"
-              to="/#speakers"
+              to="whyprtcipate"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Speakers
+              Why Participate
             </NavLink>
             <NavLink
               data-aos="fade-right"
               data-aos-duration="800"
-              to="/#panelists"
+              to="timeline"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Panelists
+              Timeline
             </NavLink>
             <NavLink
               data-aos="fade-right"
               data-aos-duration="1000"
-              to="/#schedule"
+              to="faq"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Schedule
+              FAQ
             </NavLink>
             <NavLink
               data-aos="fade-right"
               data-aos-duration="1400"
-              to="/#contact"
+              to="contacts"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
