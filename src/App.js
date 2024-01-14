@@ -11,10 +11,10 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 3000);
 
     return () => clearTimeout(timer);
-  }, []); // Empty dependency array ensures the effect runs only once
+  }, []); 
 
   return (
     <div className="App">

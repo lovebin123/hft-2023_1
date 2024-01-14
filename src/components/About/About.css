@@ -10,7 +10,8 @@
 .abt__content {
   padding: 2rem 4rem 2rem 4rem;
   width: 70%;
-  background: rgba(255, 255, 255, 0);
+  /* background: rgba(255, 255, 255, 0); */
+  background: #0000;
   box-shadow: 0 8px 32px 0 rgba(2, 107, 18, 0.37);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -20,6 +21,16 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+.invisible__txt{
+  /* visibility: hidden; */
+  color: #ffff;
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+  visibility: visible;
+}
+.invisible__txt :hover{
+  color: #ffff !important;
 }
 .abt__txt {
   display: flex;
