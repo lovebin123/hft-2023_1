@@ -1,6 +1,7 @@
 import vishnu from '../assets/jpg/vishnu.png'
 import mathew from '../assets/jpg/mathew.png'
 import mayon from '../assets/jpg/mayon.png'
+import abhishek from '../assets/jpg/abhishek.png'
 export const contactsData = [
     {
       id: 1,
@@ -24,7 +25,7 @@ export const contactsData = [
       id: 3,
       name: "Abhishek P",
       designation: "Joint Secretary",
-      image:"https://avatars.githubusercontent.com/u/75477017?v=4",
+      image: abhishek,
       phone: "8921212340",
       email: "sebindavis.mec@gmail.com",
       linkedIn: "https://www.linkedin.com/in/sebin-davis-344782195",
