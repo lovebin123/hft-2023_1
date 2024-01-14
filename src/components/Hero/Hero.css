@@ -6,7 +6,6 @@
   justify-content: space-between;
   align-items: flex-start;
   width: 100vw;
-  min-height: 90vh;
   gap: 2rem;
   background-image: url("../../assets/png/landingMainBg.png");
   background-position: center;

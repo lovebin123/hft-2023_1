@@ -44,7 +44,7 @@ const Prizes = () => {
               <img src={second} alt="Trophy" />
             </div>
             <div className="prizes__detail">
-              <h2 className="Prizes__first">₹25,000</h2>
+              <h2 className="Prizes__first" style={{color:'#C0C0C0'}}>₹25,000</h2>
               <p>Wolfram Award for every team member worth $375</p>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Prizes = () => {
               <img src={third} alt="Trophy" />
             </div>
             <div className="prizes__detail">
-              <h2 className="Prizes__first">₹25,000</h2>
+              <h2 className="Prizes__first" style={{color:'#CD7F32'}}>₹25,000</h2>
               <p>Wolfram Award for every team member worth $375</p>
             </div>
           </div>

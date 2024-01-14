@@ -50,7 +50,7 @@ const Hero = () => {
     };
   }, []);
   return (
-    <div className="hero__container">
+    <div className="hero__container" id="home">
       {width >= 1000 ? <Stars /> : null}
       <div className="hero__content_part">
         <img src={logo} alt="" data-aos="fade-up"/>
