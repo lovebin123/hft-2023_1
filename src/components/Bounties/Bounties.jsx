@@ -20,7 +20,7 @@ const Bounties = () => {
             pauseOnHover={true}
             loop={0}
             delay={0}
-            style={{ textAlign: "justify", width: "80%" }}
+            style={{ textAlign: "justify", width: "100%" }}
           >
             {carouselData.map((carousel, index) => {
               return <Mcard key={index} carousel={carousel}/>;
