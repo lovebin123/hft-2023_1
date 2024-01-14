@@ -13,12 +13,13 @@ const Faq = () => {
 
 	return (
 		<div className='faq__main__contain' id="faq">
+
 			<h1 className='section__title faq_title mobile'>
 				Frequently Asked Questions
 			</h1>
 			<FaqIllustration />
 			<div className='faq__contain'>
-				<h1 className='section__title faq_title'>
+				<h1 className='section__title '>
 					Frequently Asked Questions
 				</h1>
 				<div className='faq__accordion_wrapper'>
