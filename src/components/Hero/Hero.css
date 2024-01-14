@@ -9,6 +9,7 @@
   min-height: 90vh;
   gap: 2rem;
   background-image: url("../../assets/png/landingMainBg.png");
+  background-position: center;
   object-fit: contain;
 }
 .hero__location__info{
@@ -32,6 +33,7 @@
   height: 50%;
   justify-content: center;
   align-items: flex-start;
+  padding-top: 2rem;
 }
 .hero__content_part > p {
   color: #ffff;
@@ -111,14 +113,14 @@
 }
 
 @media screen and (max-width: 900px) {
+  
   .hero__container>img{
     display: none;
   }
   .hero__container{
-    justify-content: center;
-  }
-  .hero__content_part{
+    /* display: unset; */
     align-items: center;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 600px) {
