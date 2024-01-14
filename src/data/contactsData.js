@@ -2,6 +2,8 @@ import vishnu from '../assets/jpg/vishnu.png'
 import mathew from '../assets/jpg/mathew.png'
 import mayon from '../assets/jpg/mayon.png'
 import abhishek from '../assets/jpg/abhishek.png'
+import goutham from '../assets/jpg/goutham.png'
+
 export const contactsData = [
     {
       id: 1,
@@ -34,10 +36,19 @@ export const contactsData = [
       id: 4,
       name: "Mayon Francis",
       designation: "CS-Tech Manager",
-      image:mayon,
+      image: mayon,
       phone: "7306928074",
       email: "saniamariasabu.mec@gmail.com",
       linkedIn: "https://www.linkedin.com/in/sania-maria-sabu-1b059a1b2/",
+    },
+    {
+      id: 5,
+      name: "Goutham C Arun",
+      designation: "Event Head",
+      image:goutham,
+      phone: "9400244505",
+      email: "gouthamchennamakkal@gmail.com",
+      linkedIn: "https://www.linkedin.com/in/goutham-c-arun-057b2722b/",
     },
   ];
   
