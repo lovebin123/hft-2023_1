@@ -123,8 +123,8 @@ a {
         color: var(--tertiary-color);
     }
     .navbar__mob {
-        background-color: #03012c;
-        ;
+        background: #000;
+        color: #28aa47 !important;
         height: 100%;
         display: flex;
         flex-direction: column;

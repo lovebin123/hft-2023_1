@@ -10,27 +10,27 @@ const About = () => {
     <div className="about__container" id="about">
       <div className="abt__content" data-aos="zoom-in">
         <div className="abt__txt">
-          <h1 data-aos="fade-left" className="section__title">About</h1>
+          <h1 data-aos="fade-left" className="section__title">
+            About
+          </h1>
           <div className="abt__txt_p" data-aos="fade-right">
             <p>
-              A spark. A small wish to change the world. That’s all it takes to
-              start building a product which might be the next big thing.
+              HFT, where caffeine <span>mysteriously</span> turns into code.
             </p>
 
             <p>
-              Are you a beginner dabbling with ‘Hello World’ lines of code,
-              looking to delve deep into the realm of 0s and 1s Or are you
-              looking to use your tech prowess to build something for society?
+              Hack For Tomorrow (HFT) is where you create your dream project.
+              Build solutions to the most mind boggling problems with Excel 2023
+              and ZilMoney, cause your ideas are worth it. Here, your problems
+              aren’t just your problems, they are ours as well and we are here
+              to guide you every step of the way.
             </p>
 
             <p>
-              Excel and KeyValue Software Systems presents HackForTomorrow
-              (HFT), a 24 hour-long hackathon, which seeks to promote the
-              creation of novel and distinctive technical solutions to societal
-              problems. The hackathon, held as part of Excel 2022, the
-              techno-managerial symposium of Govt. Model Engineering College has
-              attracted over 300 participants and resulted in some incredible
-              inventions
+              So, get your clickety clackety keyboards and those beautiful
+              machines of yours and come find your seat at Hack For Tomorrow,
+              the 24 hour hackathon conducted by yours truly Excel 2023 and
+              ZilMoney.
             </p>
           </div>
         </div>

@@ -5,6 +5,7 @@ import aihead from "../../assets/svg/Clip path group.svg";
 import { IoLocation } from "react-icons/io5";
 import Stars from "../Stars/Stars";
 import { FaCalendarAlt } from "react-icons/fa";
+import Aos from "aos";
 import { useScreenWidth } from "../../hooks/useScreenWidth";
 const calculateTimeLeft = () => {
   let difference = +new Date("2024-02-03T11:00:00+05:30") - +new Date(); // MM/DD/YYYY
@@ -31,6 +32,7 @@ const Hero = () => {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   const width = useScreenWidth();
   useEffect(() => {
+    Aos.init({ duration: 1000 });
     const timer = setTimeout(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
@@ -50,18 +52,19 @@ const Hero = () => {
   return (
     <div className="hero__container">
       {width >= 1000 ? <Stars /> : null}
-
       <div className="hero__content_part">
-        <img src={logo} alt="" />
+        <img src={logo} alt="" data-aos="fade-up"/>
         <p
           className="hero__location__info"
           onClick={() => {
             window.open("https://maps.app.goo.gl/mtDQQ7EtMdDrWJhE8");
           }}
+          data-aos="fade-up"
         >
-          <IoLocation size={30}/> Kerala Startup Mission,Kalamassery, Kochi, Kerala
+          <IoLocation size={30} /> Kerala Startup Mission,Kalamassery, Kochi,
+          Kerala
         </p>
-        <p className="hero__date_info">
+        <p className="hero__date_info" data-aos="fade-up">
           <FaCalendarAlt size={30} />
           3rd - 4th Feb 2024
         </p>
@@ -90,7 +93,6 @@ const Hero = () => {
         </div>
       </div>
       <img src={aihead} alt="" className="ai__head_hero" />
-      {/* <Stars/> */}
     </div>
   );
 };

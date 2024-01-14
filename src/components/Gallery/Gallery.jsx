@@ -7,9 +7,11 @@ import img6 from "../../assets/gallery/6.jpeg";
 import img7 from "../../assets/gallery/7.jpeg";
 import img11 from "../../assets/gallery/11.JPG";
 import img12 from "../../assets/gallery/12.JPG";
+import Stars from "../Stars/Stars";
 const Gallery = () => {
   return (
     <div className="section gallery">
+    <Stars/>
       <h1 className="section__title" data-aos="fade-up" data-aos-duration="1000">
         Our Gallery
       </h1>
