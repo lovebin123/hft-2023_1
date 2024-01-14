@@ -18,7 +18,8 @@
   height: 100%;
   width: 95%;
   display: flex;
-  padding-top: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
   flex-direction: column;
     justify-content: center;
@@ -71,4 +72,10 @@
   padding-bottom: 1rem;
   font: 1em var(--primary-font);
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+    .Marq__card {
+        margin-left: 3rem;
+    }
 }
