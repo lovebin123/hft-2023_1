@@ -1,9 +1,11 @@
+import vishnu from '../assets/jpg/vishnu.png'
+import mathew from '../assets/jpg/mathew.png'
 export const contactsData = [
     {
       id: 1,
       name: "Mathew Davis",
       designation: "Chairperson",
-      image:"https://avatars.githubusercontent.com/u/75477017?v=4",
+      image:mathew,
       phone: "9605204433",
       email: "nasreenkbasheer.mec@gmail.com",
       linkedIn: "https://www.linkedin.com/in/nasreen-k-basheer-6795331a5/",
@@ -12,7 +14,7 @@ export const contactsData = [
       id: 2,
       name: "Vishnu S",
       designation: "General Secretary",
-      image:"https://avatars.githubusercontent.com/u/75477017?v=4",
+      image:vishnu,
       phone: "7012910210",
       email: "hemanthsagar.mec@gmail.com",
       linkedIn: "https://www.linkedin.com/in/hemanth-sagar-j-c-292a98195",
