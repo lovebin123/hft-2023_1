@@ -30,7 +30,7 @@
   visibility: visible;
 }
 .invisible__txt:hover{
-  color: #ffff;
+  color: red;
 }
 .abt__txt {
   display: flex;
