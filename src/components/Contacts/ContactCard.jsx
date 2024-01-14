@@ -4,7 +4,6 @@ import { FiPhoneCall, FiLinkedin, FiMail } from "react-icons/fi";
 function ContactCard({ name, designation, image, email, phone, linkedIn }) {
   return (
     <div data-aos="zoom-in" data-aos-delay="150" className="contactCard">
-    
       <div className="contact_img">
         <img src={image} alt="contacting" />
       </div>
