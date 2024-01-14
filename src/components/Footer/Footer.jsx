@@ -8,9 +8,9 @@ import excel_logo from "../../assets/png/excelLogoWithText.png";
 import {
   FaInstagram,
   FaLinkedinIn,
-  FaTwitter,
   FaFacebook,
 } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
 const Footer = () => {
   useEffect(() => {
     Aos.init({ duration: 900 });
@@ -48,7 +48,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FaTwitter className="social__footer_icon" />
+            <RiTwitterXFill className="social__footer_icon" />
           </a>
           <a
             href="https://www.linkedin.com/company/excelmec"
