@@ -52,55 +52,58 @@ const Hero = () => {
   }, []);
   return (
     <>
-     <div className="hero_marquee">
+      <div className="hero_gradient"></div>
+      <div className="hero_marquee">
         <Marquee autoFill={true}>
-          INNOVATE &nbsp;HACK &nbsp;INSPIRE&nbsp;
+          INNOVATE &nbsp;HACK &nbsp;INSPIRE &nbsp;
         </Marquee>
       </div>
-    <div className="hero__container" id="home">
-      {width >= 1000 ? <Stars /> : null}
-      <div className="hero__content_part">
-        <img src={logo} alt="" data-aos="fade-up" />
-        <p
-          className="hero__location__info"
-          onClick={() => {
-            window.open("https://maps.app.goo.gl/mtDQQ7EtMdDrWJhE8");
-          }}
-          data-aos="fade-up"
-        >
-          <IoLocation size={30} /> Kerala Startup Mission,Kalamassery, Kochi,
-          Kerala
-        </p>
-        <p className="hero__date_info" data-aos="fade-up">
-          <FaCalendarAlt size={30} />
-          3rd - 4th Feb 2024
-        </p>
-        <div
-          class="apply-button"
-          data-hackathon-slug="hft"
-          data-button-theme="light"
-          style={{
-            height: "44px",
-            width: "312px",
-          }}
-        ></div>
-        <div className="timer_main_contain">
-          <div className="timeer__time_contain">
-            <p>{timeLeft.days}</p>
-            <p>{timeLeft.hours}</p>
-            <p>{timeLeft.minutes}</p>
-            <p>{timeLeft.seconds}</p>
-          </div>
-          <div className="timer__unit_container">
-            <p>Days</p>
-            <p>Hours</p>
-            <p>Minutes</p>
-            <p>Seconds</p>
+      <div className="hero_gradient2"></div>
+
+      <div className="hero__container" id="home">
+        {width >= 1000 ? <Stars /> : null}
+        <div className="hero__content_part">
+          <img src={logo} alt="" data-aos="fade-up" />
+          <p
+            className="hero__location__info"
+            onClick={() => {
+              window.open("https://maps.app.goo.gl/mtDQQ7EtMdDrWJhE8");
+            }}
+            data-aos="fade-up"
+          >
+            <IoLocation size={30} /> Kerala Startup Mission,Kalamassery, Kochi,
+            Kerala
+          </p>
+          <p className="hero__date_info" data-aos="fade-up">
+            <FaCalendarAlt size={30} />
+            3rd - 4th Feb 2024
+          </p>
+          <div
+            class="apply-button"
+            data-hackathon-slug="hft"
+            data-button-theme="light"
+            style={{
+              height: "44px",
+              width: "312px",
+            }}
+          ></div>
+          <div className="timer_main_contain">
+            <div className="timeer__time_contain">
+              <p>{timeLeft.days}</p>
+              <p>{timeLeft.hours}</p>
+              <p>{timeLeft.minutes}</p>
+              <p>{timeLeft.seconds}</p>
+            </div>
+            <div className="timer__unit_container">
+              <p>Days</p>
+              <p>Hours</p>
+              <p>Minutes</p>
+              <p>Seconds</p>
+            </div>
           </div>
         </div>
+        <img src={aihead} alt="" className="ai__head_hero" />
       </div>
-      <img src={aihead} alt="" className="ai__head_hero" />
-    </div>
     </>
   );
 };

@@ -11,9 +11,20 @@
   background-position: center;
   object-fit: contain;
 }
-
-.hero_marquee{
+.hero_gradient{
+  height: 0.2vh;
+  width: 100%;
+  background-image: linear-gradient(120deg, rgb(37, 107, 37),#00FF00,#197719);
   margin-top: 5rem;
+}
+.hero_gradient2{
+  height: 0.2vh;
+  width: 100%;
+  background-image: linear-gradient(120deg, rgb(37, 107, 37),#00FF00,#197719);
+
+}
+.hero_marquee{
+  
   background-color: black;
   font-family:  'Manrope';
   font-size: 0.8rem;
