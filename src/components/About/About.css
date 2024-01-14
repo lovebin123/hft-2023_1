@@ -24,13 +24,13 @@
 }
 .invisible__txt{
   /* visibility: hidden; */
-  color: #ffff;
+  color: #0000;
   font-family: var(--primary-font);
   font-size: 1.2rem;
   visibility: visible;
 }
-.invisible__txt :hover{
-  color: #ffff !important;
+.invisible__txt:hover{
+  color: #ffff;
 }
 .abt__txt {
   display: flex;

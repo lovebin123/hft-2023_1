@@ -19,7 +19,7 @@ const Faq = () => {
 			</h1>
 			<FaqIllustration />
 			<div className='faq__contain'>
-				<h1 className='section__title '>
+				<h1 className='section__title faq__title_desktop'>
 					Frequently Asked Questions
 				</h1>
 				<div className='faq__accordion_wrapper'>
