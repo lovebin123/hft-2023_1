@@ -1,6 +1,6 @@
 .hero__container {
   display: flex;
-  padding-top: 8rem;
+  /* padding-top: 8rem; */
   padding-bottom: 5rem;
   flex-direction: row;
   justify-content: space-between;
@@ -10,6 +10,19 @@
   background-image: url("../../assets/png/landingMainBg.png");
   background-position: center;
   object-fit: contain;
+}
+
+.hero_marquee{
+  margin-top: 5rem;
+  background-color: black;
+  font-family:  'Manrope';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 100vw;
+  color: #ffff;
+  letter-spacing: 0.5rem;
 }
 .hero__location__info{
   display: flex;

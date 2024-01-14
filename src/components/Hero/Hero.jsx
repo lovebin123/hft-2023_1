@@ -5,6 +5,7 @@ import aihead from "../../assets/svg/Clip path group.svg";
 import { IoLocation } from "react-icons/io5";
 import Stars from "../Stars/Stars";
 import { FaCalendarAlt } from "react-icons/fa";
+import Marquee from "react-fast-marquee";
 import Aos from "aos";
 import { useScreenWidth } from "../../hooks/useScreenWidth";
 const calculateTimeLeft = () => {
@@ -50,10 +51,16 @@ const Hero = () => {
     };
   }, []);
   return (
+    <>
+     <div className="hero_marquee">
+        <Marquee autoFill={true}>
+          INNOVATE &nbsp;HACK &nbsp;INSPIRE&nbsp;
+        </Marquee>
+      </div>
     <div className="hero__container" id="home">
       {width >= 1000 ? <Stars /> : null}
       <div className="hero__content_part">
-        <img src={logo} alt="" data-aos="fade-up"/>
+        <img src={logo} alt="" data-aos="fade-up" />
         <p
           className="hero__location__info"
           onClick={() => {
@@ -94,6 +101,7 @@ const Hero = () => {
       </div>
       <img src={aihead} alt="" className="ai__head_hero" />
     </div>
+    </>
   );
 };
 
