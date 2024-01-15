@@ -23,7 +23,7 @@ const WhyPrtcpt = () => {
           <div className="y_ppt_card">
             <p>
               <b>Direct Entry to the finals of IBeTo’23!</b>: The top 3
-              finalists get direct entry to the finals of Excels national level
+              finalists get direct entry to the finals of Excel’s national level
               innovation competition IBeTo’23.
             </p>
           </div>

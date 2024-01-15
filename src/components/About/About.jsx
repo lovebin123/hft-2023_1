@@ -9,7 +9,14 @@ const About = () => {
   }, []);
   return (
     <div className="about__container" id="about">
-      <Tooltip id="desktop-nav-tooltip" style={{zIndex:'100', fontFamily:'var(--primary-font)',color:'var(--primary-color)'}}/>
+      <Tooltip
+        id="desktop-nav-tooltip"
+        style={{
+          zIndex: "100",
+          fontFamily: "var(--primary-font)",
+          color: "var(--primary-color)",
+        }}
+      />
       <div className="abt__content" data-aos="zoom-in">
         <div className="abt__txt">
           <h1 data-aos="fade-left" className="section__title">
@@ -23,8 +30,8 @@ const About = () => {
             >
               HFT, where caffeine{" "}
               <span style={{ color: "red" }}> &lt; span &gt;</span> mysteriously
-              &lt; <span style={{ color: "red" }}>/span &gt;</span> turns into
-              code.
+              <span style={{ color: "red" }}> &lt;</span>{" "}
+              <span style={{ color: "red" }}>/span &gt;</span> turns into code.
             </p>
 
             <p>
