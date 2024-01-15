@@ -1,22 +1,20 @@
 import React from "react";
-import polygonw from "../../assets/png/polygonw.png";
 
-const Mcard = () => {
+const Mcard = ({carousel}) => {
   return (
     <div className="Marq__card">
       <div className="Marq__icon">
         <a href="https://polygon.technology/">
-          <img src={polygonw} alt="POLYGON LOGO" />
+          <img src={carousel.image} alt="POLYGON LOGO" />
         </a>
       </div>
       <div className="Marq__detail">
         <ul>
-          <li>₹10,000 for the best hack built on Ethereum, or</li>
-          <li>₹15,000 for the best hack built on Ethereum + Polygon</li>
-          <li>
-            Eligibility to apply for internship/full-time roles and seed funding
-            of up to 5,000 USD for winners!
-          </li>
+         {carousel.details.map((det,index)=>{
+          return(
+            <li>{det}</li>
+          )
+         })}
         </ul>
       </div>
     </div>

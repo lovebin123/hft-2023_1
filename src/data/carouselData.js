@@ -1,69 +1,44 @@
+ import polygon from '../assets/png/polygonw.png'
+ import replit from '../assets/png/replit.png'
  export const carouselData = [
     {
       icon: <i className="fa fa-user"></i>,
+      image:polygon,
       heading: "Polygon",
       details: [
-        "₹10,000 for the best hack built on Ethereum, or",
-        "₹15,000 for the best hack built on Ethereum + Polygon,",
+        "$150 for the best hack built on Ethereum or,",
+        "$200 for the best hack built on Ethereum + Polygon,",
         "Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!",
       ],
     },
     {
-      icon: <i className="fa fa-cogs"></i>,
-      heading: "Configuration",
+      icon: <i className="fa fa-chart-bar"></i>,
+      heading: "Replit",
+      image:replit,
       details: [
-        "Manage your users and their permissions.",
-        "Restrict access based on roles.",
-        "Create and delete user accounts.",
-        "Create and delete user accounts.",
+        "$50 to the winning project of the hackathon (must be deployed on replit)",
+        "Replit schwags upto 5 eligible submissions deployed on Replit.",
+        "Eligibility to apply for internship/full-time roles at Replit.",
       ],
     },
     {
-      icon: <i className="fa fa-cogs"></i>,
-      heading: "Conion",
+      icon: <i className="fa fa-user"></i>,
+      image:polygon,
+      heading: "Polygon",
       details: [
-        "Manage your users and their permissions.",
-        "Restrict access based on roles.",
-        "Create and delete user accounts.",
-        "Create and delete user accounts.",
-      ],
-    },
-    {
-      icon: <i className="fa fa-cogs"></i>,
-      heading: "Con",
-      details: [
-        "Manage your users and their permissions.",
-        "Restrict access based on roles.",
-        "Create and delete user accounts.",
-        "Create and delete user accounts.",
-      ],
-    },
-    {
-      icon: <i className="fa fa-cogs"></i>,
-      heading: "figuration",
-      details: [
-        "Manage your users and their permissions.",
-        "Restrict access based on roles.",
-        "Create and delete user accounts.",
-        "Create and delete user accounts.",
-      ],
-    },
-    {
-      icon: <i className="fa fa-cogs"></i>,
-      heading: "Coration",
-      details: [
-        "Manage your users and their permissions.",
-        "Restrict access based on roles.",
-        "Create and delete user accounts.",
-        "Create and delete user accounts.",
+        "$150 for the best hack built on Ethereum or,",
+        "$200 for the best hack built on Ethereum + Polygon,",
+        "Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!",
       ],
     },
     {
       icon: <i className="fa fa-chart-bar"></i>,
-      heading: "Analytics",
+      heading: "Replit",
+      image:replit,
       details: [
-        "Manage your users and their permissions.",
-        "Create and delete user accounts.",
+        "$50 to the winning project of the hackathon (must be deployed on replit)",
+        "Replit schwags upto 5 eligible submissions deployed on Replit.",
+        "Eligibility to apply for internship/full-time roles at Replit.",
       ],
     },
   ];

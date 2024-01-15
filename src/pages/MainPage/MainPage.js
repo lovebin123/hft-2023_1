@@ -8,7 +8,7 @@ import {
   Footer,
   Contacts,
   Prizes,
-  // Bounties,
+  Bounties,
   Faq,
   Partners
 } from "../../components";
@@ -23,7 +23,7 @@ const MainPage = () => {
       <Prizes />
       <Faq/>
       <Partners/>
-      {/* <Bounties/> */}
+      <Bounties/>
       <Contacts />
       <Footer />
     </div>
