@@ -51,7 +51,7 @@ const Hero = () => {
     };
   }, []);
   return (
-    <>
+    <div id="home">
       <div className="hero_gradient"></div>
       <div className="hero_marquee">
         <Marquee autoFill={true}>
@@ -60,7 +60,7 @@ const Hero = () => {
       </div>
       <div className="hero_gradient2"></div>
 
-      <div className="hero__container" id="home">
+      <div className="hero__container">
         {width >= 1000 ? <Stars /> : null}
         <div className="hero__content_part">
           <img src={logo} alt="" data-aos="fade-up" />
@@ -71,7 +71,7 @@ const Hero = () => {
             }}
             data-aos="fade-up"
           >
-            <IoLocation size={30} /> Kerala Startup Mission,Kalamassery, Kochi,
+            <IoLocation size={30} style={{flexShrink:'0'}} /> Kerala Startup Mission,Kalamassery, Kochi,
             Kerala
           </p>
           <p className="hero__date_info" data-aos="fade-up">
@@ -104,7 +104,7 @@ const Hero = () => {
         </div>
         <img src={aihead} alt="" className="ai__head_hero" />
       </div>
-    </>
+    </div>
   );
 };
 
