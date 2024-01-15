@@ -123,7 +123,7 @@ function Navbar() {
             <NavLink
               data-aos="fade-right"
               data-aos-duration="1400"
-              to="contacts"
+              to="contact"
               onClick={handleDrawerClose}
               className="navmob__link"
             >

@@ -4,6 +4,7 @@ import Aos from "aos";
 import { BsPeopleFill, BsTrophyFill, BsCodeSquare } from "react-icons/bs";
 import { AiFillGift } from "react-icons/ai";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
+import { FaChalkboardTeacher } from "react-icons/fa";
 import Stars from "../Stars/Stars";
 const WhyPrtcpt = () => {
   useEffect(() => {
@@ -11,7 +12,7 @@ const WhyPrtcpt = () => {
   }, []);
   return (
     <div className="y_partcipate__container" id="whyprtcipate">
-      <Stars/>
+      <Stars />
       <h1 className="section__title">Why Participate</h1>
       <div className="y_ppt_content">
         <div className="yppt_card_and_image" aos-delay="200" data-aos="zoom-in">
@@ -21,8 +22,9 @@ const WhyPrtcpt = () => {
 
           <div className="y_ppt_card">
             <p>
-              The top 3 teams of HFT get a direct entry into the finals of IBeTo
-              2022. Check out the website of IBeTo here
+              <b>Direct Entry to the finals of IBeTo’23!</b>: The top 3
+              finalists get direct entry to the finals of Excels national level
+              innovation competition IBeTo’23.
             </p>
           </div>
         </div>
@@ -34,8 +36,8 @@ const WhyPrtcpt = () => {
 
           <div className="y_ppt_card">
             <p>
-              The top 3 teams of HFT get a direct entry into the finals of IBeTo
-              2022. Check out the website of IBeTo here
+              <b>Payday!</b> :Get your hands on thrilling cash rewards from a
+              prize pool of ₹ 50,000.
             </p>
           </div>
         </div>
@@ -47,8 +49,8 @@ const WhyPrtcpt = () => {
 
           <div className="y_ppt_card">
             <p>
-              The top 3 teams of HFT get a direct entry into the finals of IBeTo
-              2022. Check out the website of IBeTo here
+              <b>Goodies</b> : Swags, Stickers, Redbull, Munchies and an
+              Experience of a lifetime!
             </p>
           </div>
         </div>
@@ -60,8 +62,20 @@ const WhyPrtcpt = () => {
 
           <div className="y_ppt_card">
             <p>
-              The top 3 teams of HFT get a direct entry into the finals of IBeTo
-              2022. Check out the website of IBeTo here
+              <b>The People!</b> :Join forces and network with some of the
+              nation's top thinkers.
+            </p>
+          </div>
+        </div>
+        <div className="yppt_card_and_image" aos-delay="300" data-aos="zoom-in">
+          <div className="yppt__icon_container">
+            <FaChalkboardTeacher  size={85} />
+          </div>
+
+          <div className="y_ppt_card">
+            <p>
+              <b>Of Course, Us </b>:Mentor support throughout the hackathon to
+              supercharge your experience
             </p>
           </div>
         </div>
@@ -73,8 +87,8 @@ const WhyPrtcpt = () => {
 
           <div className="y_ppt_card">
             <p>
-              The top 3 teams of HFT get a direct entry into the finals of IBeTo
-              2022. Check out the website of IBeTo here
+              <b>The Wowza </b> :Build and learn new cool stuff amongst the best
+              innovators from all around the world.
             </p>
           </div>
         </div>

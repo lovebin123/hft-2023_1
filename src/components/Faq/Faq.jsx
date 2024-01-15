@@ -107,28 +107,28 @@ const MinusIcon = () => {
 
 const faqData = [
 	{
-		question: 'Is there any registration fee?',
-		answer: 'This hackathon is completely free of cost, and open to all!',
+		question: 'How much is the registration fee?',
+		answer: 'Absolutely Zil, Nothing, Nada. The Hackathon is completely free of cost to all selected teams.',
 	},
 	{
-		question: 'Do I need a team to participate?',
-		answer: 'The more the merrier! You can participate as a team of 2-5 members.',
+		question: 'How many people should be there in a team?',
+		answer: 'A team should consist between 2 and 5 members. ',
 	},
 	{
-		question: 'Will I be provided food during the event?',
-		answer: 'All checked-in participants will be served delicious meals.',
+		question: 'What about food?',
+		answer: 'What about it? We only require that you bring your laptop and items necessary for you to hack. We’ll take care of all your needs, be it food or food.',
 	},
 	{
-		question: 'Can I work on my idea before the hackathon?',
-		answer: 'Nope, all coding must be done during the hackathon. Feel free to brainstorm ideas and create wireframes, though!',
+		question: 'Can I work on my idea before the Hackathon?',
+		answer: 'No. Feel free to brainstorm and create wireframes though.',
 	},
 	{
-		question: "I'm a beginner, can I participate?",
-		answer: "Absolutely! We'll have mentors to help you out. Hackathons are a great place to learn new skills.",
+		question: "I’m a beginner, can I participate?",
+		answer: "Ofcourse! We have THE most amazing mentors to help you out at all times!",
 	},
 	{
 		question: 'I have more questions.',
-		answer: 'Feel free to reach out to support@excelmec.org',
+		answer: 'I have no more answers. JUST KIDDING! Feel free to contact us at support@excelmec.org.',
 	},
 ];
 
