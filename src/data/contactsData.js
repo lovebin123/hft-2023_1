@@ -3,6 +3,7 @@ import mathew from '../assets/jpg/mathew.png'
 import mayon from '../assets/jpg/mayon.png'
 import abhishek from '../assets/jpg/abhishek.png'
 import goutham from '../assets/jpg/goutham.png'
+import vaidyanath from '../assets/jpg/vaidyanath.png'
 
 export const contactsData = [
     {
@@ -54,7 +55,7 @@ export const contactsData = [
       id: 6,
       name: "Vaidyanath B",
       designation: "Event Head",
-      image:goutham,
+      image: vaidyanath,
       phone: "8289986700",
       email: "b.vaidyanath003@gmail.com ",
       linkedIn: "https://in.linkedin.com/in/vaidyanath-b-b169a5258",
