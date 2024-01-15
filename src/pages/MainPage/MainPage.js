@@ -25,7 +25,7 @@ const MainPage = () => {
       <Gallery/>
       <Faq/>
       <Partners/>
-      <Bounties/>
+      {/* <Bounties/> */}
       <Contacts />
       <Footer />
     </div>

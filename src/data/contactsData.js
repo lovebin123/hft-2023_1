@@ -50,5 +50,14 @@ export const contactsData = [
       email: "gouthamchennamakkal@gmail.com",
       linkedIn: "https://www.linkedin.com/in/goutham-c-arun-057b2722b/",
     },
+    {
+      id: 6,
+      name: "Vaidyanath B",
+      designation: "Event Head",
+      image:goutham,
+      phone: "8289986700",
+      email: "b.vaidyanath003@gmail.com ",
+      linkedIn: "https://in.linkedin.com/in/vaidyanath-b-b169a5258",
+    },
   ];
   
