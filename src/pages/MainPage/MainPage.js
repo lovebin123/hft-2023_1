@@ -8,7 +8,7 @@ import {
   Footer,
   Contacts,
   Prizes,
-  Bounties,
+  // Bounties,
   Faq,
   Partners
 } from "../../components";
