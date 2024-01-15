@@ -12,13 +12,23 @@ const Partners = () => {
       <h1 className="section__title">Partners</h1>
       <div className="partners__contain">
         <div className="partners__titlep">
-          <a href="https://zilmoney.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://zilmoney.com/"
+            target="_blank"
+            rel="noreferrer"
+            data-aos="zoom-in"
+          >
             <img src={zilmoney} alt="DEVFOLIO LOGO" />
             <p>Title Partner</p>
           </a>
         </div>
         <div className="partners__gold">
-          <a href="https://devfolio.co" target="_blank" rel="noreferrer">
+          <a
+            href="https://devfolio.co"
+            target="_blank"
+            rel="noreferrer"
+            data-aos="zoom-in"
+          >
             <img src={devfolio} alt="DEVFOLIO LOGO" />
             <p>Gold Partner</p>
           </a>
@@ -26,11 +36,17 @@ const Partners = () => {
             href="https://polygon.technology/"
             target="_blank"
             rel="noreferrer"
+            data-aos="zoom-in"
           >
             <img src={polygon} alt="POLYGON LOGO" />
             <p>Gold Partner</p>
           </a>
-          <a href="https://replit.com " target="_blank" rel="noreferrer">
+          <a
+            href="https://replit.com "
+            target="_blank"
+            rel="noreferrer"
+            data-aos="zoom-in"
+          >
             <img src={replit} alt="REPLIT LOGO" />
             <p>Gold Partner</p>
           </a>

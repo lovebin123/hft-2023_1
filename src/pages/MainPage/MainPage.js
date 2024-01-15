@@ -10,7 +10,6 @@ import {
   Prizes,
   Bounties,
   Faq,
-  Gallery,
   Partners
 } from "../../components";
 const MainPage = () => {
@@ -22,7 +21,6 @@ const MainPage = () => {
       <WhyPrtcpt />
       <Timeline />
       <Prizes />
-      <Gallery/>
       <Faq/>
       <Partners/>
       {/* <Bounties/> */}
