@@ -40,7 +40,7 @@ const TimelineComponent = () => {
               <div className="timeline__element_txt">
                 <h3 className="vertical-timeline-element-title">19 Jan 2024</h3>
                 <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
-                  Registation starts
+                  Registration starts
                 </p>
               </div>
             </VerticalTimelineElement>
@@ -54,7 +54,7 @@ const TimelineComponent = () => {
                 <h3 className="vertical-timeline-element-title">28 Jan 2024</h3>
 
                 <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
-                  Registation Closes{" "}
+                  Registration Closes{" "}
                 </p>
               </div>
             </VerticalTimelineElement>
