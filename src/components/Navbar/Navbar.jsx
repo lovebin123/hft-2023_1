@@ -46,7 +46,7 @@ function Navbar() {
         <div className="nav_contents">
           <NavLink className="nav__link" to="home" smooth={true}>Home</NavLink>
           <NavLink className="nav__link" to="about" smooth={true}>About</NavLink>
-          <NavLink className="nav__link" to="whyprtcipate" smooth={true}>Why Particpipate</NavLink>
+          <NavLink className="nav__link" to="whyprtcipate" smooth={true}>Why Participate</NavLink>
           <NavLink className="nav__link" to="timeline" smooth={true}>Timeline</NavLink>
           <NavLink className="nav__link" to="faq" smooth={true}>FAQ</NavLink>
           <NavLink className="nav__link" to="contact" smooth={true}>Contact Us</NavLink>
