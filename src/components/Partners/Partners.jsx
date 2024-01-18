@@ -22,7 +22,10 @@ const Partners = () => {
             <img src={zilmoney} alt="DEVFOLIO LOGO" />
             <p>Title Partner</p>
           </a>
-          <a
+          
+        </div>
+        <div className="partners__gold">
+        <a
             href="https://startupmission.kerala.gov.in/"
             target="_blank"
             rel="noreferrer"
@@ -31,8 +34,6 @@ const Partners = () => {
             <img src={ksum} alt="KSUM LOGO" />
             <p>Association Partner</p>
           </a>
-        </div>
-        <div className="partners__gold">
           <a
             href="https://devfolio.co"
             target="_blank"
