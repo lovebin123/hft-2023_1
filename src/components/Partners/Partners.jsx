@@ -5,6 +5,7 @@ import zilmoney from "../../assets/png/zilmoney1.png";
 import devfolio from "../../assets/png/devfolio.png";
 import polygon from "../../assets/png/polygon.png";
 import Stars from "../Stars/Stars";
+import ksum from '../../assets/png/ksum.png'
 const Partners = () => {
   return (
     <div className="partners__main__contain">
@@ -20,6 +21,15 @@ const Partners = () => {
           >
             <img src={zilmoney} alt="DEVFOLIO LOGO" />
             <p>Title Partner</p>
+          </a>
+          <a
+            href="https://startupmission.kerala.gov.in/"
+            target="_blank"
+            rel="noreferrer"
+            data-aos="zoom-in"
+          >
+            <img src={ksum} alt="KSUM LOGO" />
+            <p>Association Partner</p>
           </a>
         </div>
         <div className="partners__gold">

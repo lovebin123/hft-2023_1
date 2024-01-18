@@ -31,6 +31,7 @@
 }
 .partners__titlep>a>img{
     width: 20rem;
+    height: 9rem;
     border-radius: 15px;
 }
 .partners__gold{
@@ -52,4 +53,19 @@
 }
 .partners__gold>a>img{
     width: 15rem;
+}
+
+
+@media only screen and(max-width:450px) {
+    .partners__titlep>a>img{
+        width: 10rem;
+        height: 6rem;
+    }
+}
+
+
+@media only screen and(max-width:400px) {
+    .partners__titlep>a>img{
+        width: 5rem;
+    }
 }
