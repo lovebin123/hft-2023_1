@@ -127,7 +127,7 @@ function Navbar() {
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Contacts Us
+              Contact Us
             </NavLink>
           </div>
         </div>
