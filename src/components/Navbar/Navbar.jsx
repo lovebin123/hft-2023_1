@@ -43,6 +43,7 @@ function Navbar() {
             onClick={() => {
               window.open("www.excelmec.org");
             }}
+            
           >
             <img className="nav__logo__img" src={excel_logo} alt="" />
           </NavLink>

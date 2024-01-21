@@ -23,6 +23,7 @@
 
 .nav__logo>a {
     height: 100%;
+    cursor: pointer;
 }
 
 .nav__logo {
