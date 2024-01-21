@@ -26,30 +26,46 @@ function Navbar() {
     background: scrollPosition > 300 ? "#111111" : "rgba(17, 17, 17, 0.1)",
     boxShadow:
       scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
-    backdropFilter: 'blur(10px)'
-  }
+    backdropFilter: "blur(10px)",
+  };
   const navStyle = {
     background: scrollPosition > 300 ? "#111111" : "#111111",
     boxShadow:
       scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
-    backdropFilter: 'none'
-  }
+    backdropFilter: "none",
+  };
 
   return (
     <div className="navbar" style={notHome ? navStyle : navStyleHome}>
       <div className="navbar__main container">
         <div className="nav__logo">
-          <NavLink>
+          <NavLink
+            onClick={() => {
+              window.open("www.excelmec.org");
+            }}
+          >
             <img className="nav__logo__img" src={excel_logo} alt="" />
           </NavLink>
         </div>
         <div className="nav_contents">
-          <NavLink className="nav__link" to="home" smooth={true}>Home</NavLink>
-          <NavLink className="nav__link" to="about" smooth={true}>About</NavLink>
-          <NavLink className="nav__link" to="whyprtcipate" smooth={true}>Why Participate</NavLink>
-          <NavLink className="nav__link" to="timeline" smooth={true}>Timeline</NavLink>
-          <NavLink className="nav__link" to="faq" smooth={true}>FAQ</NavLink>
-          <NavLink className="nav__link" to="contact" smooth={true}>Contact Us</NavLink>
+          <NavLink className="nav__link" to="home" smooth={true}>
+            Home
+          </NavLink>
+          <NavLink className="nav__link" to="about" smooth={true}>
+            About
+          </NavLink>
+          <NavLink className="nav__link" to="whyprtcipate" smooth={true}>
+            Why Participate
+          </NavLink>
+          <NavLink className="nav__link" to="timeline" smooth={true}>
+            Timeline
+          </NavLink>
+          <NavLink className="nav__link" to="faq" smooth={true}>
+            FAQ
+          </NavLink>
+          <NavLink className="nav__link" to="contact" smooth={true}>
+            Contact Us
+          </NavLink>
         </div>
         {/* <a href='https://rzp.io/l/finnext' target='_blank' rel="noreferrer">
           <button className="nav_btn">Register</button>
