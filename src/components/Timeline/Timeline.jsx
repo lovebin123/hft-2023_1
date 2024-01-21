@@ -38,7 +38,7 @@ const TimelineComponent = () => {
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
-                <h3 className="vertical-timeline-element-title">20 Jan 2024</h3>
+                <h3 className="vertical-timeline-element-title">21 Jan 2024</h3>
                 <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
                   Registration starts
                 </p>
