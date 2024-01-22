@@ -46,12 +46,12 @@
 
   display: flex;
   flex-direction: column;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
 }
 .Marq__icon {
     width: 70%;
-    height: 100%;
+    height: 5rem;
     margin: 0px;
     display: flex;
     flex-direction: column;
@@ -64,6 +64,7 @@
 }
 .Marq__detail {
   width: 85%;
+  height: 12rem;
   border-radius: 15px;
   background: rgba(0, 0, 0, 0.6);
   color: whitesmoke;
