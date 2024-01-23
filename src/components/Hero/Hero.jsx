@@ -71,8 +71,7 @@ const Hero = () => {
             }}
             data-aos="fade-up"
           >
-            <IoLocation size={30} style={{flexShrink:'0'}} /> Kerala Startup Mission,Kalamassery, Kochi,
-            Kerala
+            <IoLocation size={30} style={{flexShrink:'0'}} /> KSUM, Kalamaserry, Kochi, Kerala
           </p>
           <p className="hero__date_info" data-aos="fade-up">
             <FaCalendarAlt size={30} />
