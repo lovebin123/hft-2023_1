@@ -9,7 +9,7 @@ import Marquee from "react-fast-marquee";
 import Aos from "aos";
 import { useScreenWidth } from "../../hooks/useScreenWidth";
 const calculateTimeLeft = () => {
-  let difference = +new Date("2024-02-03T11:00:00+05:30") - +new Date(); // MM/DD/YYYY
+  let difference = +new Date("2024-02-25T11:00:00+05:30") - +new Date(); // MM/DD/YYYY
   let timeLeft = {};
   if (difference > 0) {
     timeLeft = {
