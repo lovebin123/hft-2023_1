@@ -1,6 +1,6 @@
 import React from "react";
 import "./Partners.css";
-import replit from "../../assets/png/replit.png";
+import replit from "../../assets/png/replit_dark.png";
 import zilmoney from "../../assets/png/zilmoney1.png";
 import devfolio from "../../assets/png/devfolio.png";
 import polygon from "../../assets/png/polygon.png";
@@ -58,7 +58,7 @@ const Partners = () => {
             rel="noreferrer"
             data-aos="zoom-in"
           >
-            <img src={replit} alt="REPLIT LOGO" />
+            <img src={replit}  height={"77rem"}  alt="REPLIT LOGO" />
             <p>Gold Partner</p>
           </a>
         </div>

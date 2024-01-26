@@ -107,6 +107,10 @@ const MinusIcon = () => {
 
 const faqData = [
 	{
+		question:'What is the theme of the Hackathon?',
+		answer:'The hackathon is open-themed, giving you the freedom to build your wildest ideas.'
+	},
+	{
 		question: 'How much is the registration fee?',
 		answer: 'Absolutely Zil, Nothing, Nada. The Hackathon is completely free of cost to all selected teams.',
 	},

@@ -38,7 +38,7 @@ const TimelineComponent = () => {
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
-                <h3 className="vertical-timeline-element-title">21 Jan 2024</h3>
+                <h3 className="vertical-timeline-element-title">17 Jan 2024</h3>
                 <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
                   Registration starts
                 </p>
@@ -51,7 +51,7 @@ const TimelineComponent = () => {
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
-                <h3 className="vertical-timeline-element-title">28 Jan 2024</h3>
+                <h3 className="vertical-timeline-element-title">10 Feb 2024</h3>
 
                 <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
                   Registration Closes{" "}
@@ -64,7 +64,7 @@ const TimelineComponent = () => {
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
-                <h3 className="vertical-timeline-element-title">3 Feb 2024 10:00 AM</h3>
+                <h3 className="vertical-timeline-element-title">24 Feb 2024 10:00 AM</h3>
                 <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
                   Check-in{" "}
                 </p>
@@ -76,7 +76,7 @@ const TimelineComponent = () => {
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
-                <h3 className="vertical-timeline-element-title">3 Feb 2024 11:00 AM</h3>
+                <h3 className="vertical-timeline-element-title">24 Feb 2024 11:00 AM</h3>
 
                 <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
                 Opening Ceremony{" "}
@@ -90,7 +90,7 @@ const TimelineComponent = () => {
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
-                <h3 className="vertical-timeline-element-title">4 Feb 2024 9:30 AM</h3>
+                <h3 className="vertical-timeline-element-title">25 Feb 2024 9:30 AM</h3>
                 <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
                 Hack ends{" "}
                 </p>
@@ -103,7 +103,7 @@ const TimelineComponent = () => {
               contentArrowStyle={{ display: "none" }}
             >
               <div className="timeline__element_txt">
-                <h3 className="vertical-timeline-element-title">4 Feb 2024 11:00 AM</h3>
+                <h3 className="vertical-timeline-element-title">25 Feb 2024 11:00 AM</h3>
 
                 <p className="timeline__para" style={{ fontSize: "1.25rem" }}>
                 Closing Ceremony{" "}
