@@ -75,7 +75,7 @@ const Hero = () => {
           </p>
           <p className="hero__date_info" data-aos="fade-up">
             <FaCalendarAlt size={30} />
-            3rd - 4th Feb 2024
+            24th - 25th Feb 2024
           </p>
           <div
             class="apply-button"
