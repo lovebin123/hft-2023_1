@@ -6,6 +6,7 @@ import devfolio from "../../assets/png/devfolio.png";
 import polygon from "../../assets/png/polygon.png";
 import Stars from "../Stars/Stars";
 import ksum from '../../assets/png/ksum.png'
+import wolfram from '../../assets/png/wolfram1.png'
 const Partners = () => {
   return (
     <div className="partners__main__contain">
@@ -59,6 +60,17 @@ const Partners = () => {
             data-aos="zoom-in"
           >
             <img src={replit}  height={"77rem"}  alt="REPLIT LOGO" />
+            <p>Gold Partner</p>
+          </a>
+          <a
+            href="https://www.wolframalpha.com/ "
+            target="_blank"
+            rel="noreferrer"
+            data-aos="zoom-in"
+          >
+            <div className="wolfram">
+              <img src={wolfram}></img>
+            </div>
             <p>Gold Partner</p>
           </a>
         </div>
